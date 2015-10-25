@@ -1,0 +1,84 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "http://bilalsyedhussain.com/site"
+
+# Site title
+title = "Bilal Syed Hussain"
+
+# Copyright
+copyright = "(c) 2015 Bilal Syed Hussain."
+
+# Language
+languageCode = "en-EN"
+
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+
+# theme to use (located in /themes/THEMENAME/)
+theme = "hyde-b"
+
+publishdir="_deploy"
+
+# pagination
+paginate = 10
+paginatePath = "page"
+
+# Enable Disqus integration
+# disqusShortname = "NAME"
+
+pluralizelisttitles = false
+
+
+[permalinks]
+    posts = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Bilal Syed Hussain"
+    email = "bilalshussain@gmail.com"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # You can use markdown here.
+    brand = "Bilal Syed Hussain"
+    topline = "few words about your site"
+    # footline = "code with <i class='fa fa-heart'></i>"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+    github = "bilalh" # Your Github profile ID
+    bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "http://uk.linkedin.com/pub/bilal-syed-hussain/40/981/18" # Your LinkedIn profile ID (from public URL)
+    googleplus = "BilalSyedHussain1" # Your Google+ profile ID
+    facebook = "bilalsyedhussain" # Your Facebook profile ID
+    twitter = "BilalsHussain" # Your Twitter profile ID
+    youtube = ""  # Your Youtube channel ID
+    flattr = ""  # populate with your flattr uid
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []

@@ -1,0 +1,27 @@
+[about]
+  Name = "about"
+  URL = "/about"
+
+[code]
+  Name = "code"
+  URL = "/code"
+
+[posts]
+  Name = "posts"
+  Title = "Show list of posts"
+  URL = "/posts"
+
+[topics]
+  Name = "topics"
+  Title = "Show list of topics"
+  URL = "/topics"
+
+[tags]
+  Name = "tags"
+  Title = "Show list of tags"
+  URL = "/tags"
+
+[research]
+  Name  = "research"
+  Title = "Show my research"
+  URL   = "http://bilalsyedhussain.com/"
