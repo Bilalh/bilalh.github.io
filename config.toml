@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://bilalsyedhussain.com/site"
+baseurl = "http://bilalsyedhussain.com/blog"
 
 # Site title
 title = "Bilal Syed Hussain"
@@ -59,7 +59,7 @@ pluralizelisttitles = false
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
-    highlight = "default"
+    highlight = "solarized_light"
 
     # Google Analytics.
     googleAnalytics = "Your Google Analytics tracking code"
