@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+<section id="main-content" class="container main_content section">
+  <header class="container">
+    {{ partial "bloc/content/h1-title" . }}
+  </header>
+
+  <ul>
+  {{ range $index, .Data.Pages }}
+      <!-- <div class="container hat">
+        <h2><a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a></h2>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
+      </div> -->
+    <li>
+        <span>
+            <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
+            <time class="pull-right post-list" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
+        </span>
+    </li>
+  {{ end }}
+  </ul>
+</section>
+{{ partial "foot" . }}
