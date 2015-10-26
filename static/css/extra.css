@@ -1,3 +1,9 @@
+code.hljs{
+  tab-size: 4;
+  font-size: 1rem;
+}
+
+
 code.language-applescript{
   tab-size: 2;
 }
