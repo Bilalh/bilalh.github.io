@@ -3,16 +3,13 @@ author: Bilal Syed Hussain
 date: 2011-08-29T00:30:16Z
 description: A description
 draft: false
-keywords:
-- Applescript
-- OSX
 tags:
  - Applescript
  - Utilities
  - Scripting
 title: fn lock
 topics:
-- topic 1
+- automation
 type: post
 ---
 
@@ -52,4 +49,3 @@ tell application "System Preferences"
 	quit
 end tell
 ```
-

@@ -4,7 +4,7 @@
     {{ partial "bloc/content/h1-title" . }}
   </header>
 
-  <ul>
+  <ul class="all-posts">
   {{ range $index, .Data.Pages }}
       <!-- <div class="container hat">
         <h2><a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a></h2>
