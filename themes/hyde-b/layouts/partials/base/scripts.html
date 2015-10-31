@@ -15,7 +15,10 @@
 
 {{ with .Site.Params.highlight }}
 <script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    hljs.configure({languages: []})
+    hljs.initHighlightingOnLoad();
+</script>
 {{ end }}
 
 {{ with .Site.Params.googleplus }}
