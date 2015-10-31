@@ -19,7 +19,7 @@ theme = "hyde-b"
 publishdir="_deploy"
 
 # pagination
-paginate = 5
+paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration

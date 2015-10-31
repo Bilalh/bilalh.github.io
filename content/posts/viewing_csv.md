@@ -1,12 +1,12 @@
 ---
 author: Bilal Syed Hussain
-date: 2015-10-31T16-46-31Z
-description: description
+date: 2015-10-31T16:46:31Z
+description: Pretty printing a .csv file to get nicely aligned output on the command line.
 draft: false
 tags:
 - shell
 - text processing
-title: Viewing .csv files on the command file
+title: Viewing .csv files on the command line
 topics:
 - tools
 type: post

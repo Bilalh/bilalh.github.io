@@ -1,6 +1,7 @@
 [about]
   Name = "about"
-  URL = "/about"
+  Title = "About me"  
+  URL = "http://bilalsyedhussain.com/"
 
 [code]
   Name = "code"
