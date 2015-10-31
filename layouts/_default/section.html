@@ -4,17 +4,15 @@
     {{ partial "bloc/content/h1-title" . }}
   </header>
 
-  <ul class="all-posts">
+  <ul id="all-posts">
   {{ range $index, .Data.Pages }}
       <!-- <div class="container hat">
         <h2><a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a></h2>
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
       </div> -->
     <li>
-        <span>
-            <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
-            <time class="pull-right post-list" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
-        </span>
+        <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
+        <time class="meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
     </li>
   {{ end }}
   </ul>

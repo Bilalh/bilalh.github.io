@@ -8,6 +8,27 @@ code.language-applescript{
     tab-size: 2;
 }
 
-ul.all-posts{
+ul#all-posts{
     list-style-type: none;
+}
+
+ul#all-posts > li {
+    vertical-align: top;
+    margin-bottom: .5em;
+    display: table;
+    width: 100%;
+    padding: 0 0;
+}
+
+ul#all-posts > li > .meta
+{
+    display: table-cell;
+    text-align: right;
+    width: 27%;
+}
+
+ul#all-posts > li > a
+{
+    display: table-cell;
+    padding: 0 .5em;
 }

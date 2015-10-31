@@ -4,7 +4,6 @@ draft: true
 author: "Bilal Syed Hussain"
 title: "Title"
 description: "Description"
-keywords: ["key"]
 topics: ["project"]
 tags: ["code"]
 github: bilalh/title
