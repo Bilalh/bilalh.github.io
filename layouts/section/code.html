@@ -1,0 +1,25 @@
+{{ partial "head" . }}
+<section id="main-content" class="container main_content section">
+  <header class="container">
+    {{ partial "bloc/content/h1-title" . }}
+  </header>
+
+  <div class="split floatfix">
+    <ul>
+      {{ range $index, .Data.Pages }}
+        <li>
+          <a class='atitle'  href="{{ .Permalink }}">{{ .Title }}</a>
+          <span class="quiet small">Shell &nbsp;&nbsp;C++</span><br>
+          <div>
+            <p> {{.Params.info}} </p>
+            <a href="{{ .Permalink }}">Read more...</a>
+          </div>
+        </li>
+
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+
+{{ partial "foot" . }}

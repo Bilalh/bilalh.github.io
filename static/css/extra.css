@@ -64,3 +64,70 @@ td.row-sub-heading{
     }
 
 }
+
+
+/*code pages*/
+
+.floatfix {
+    overflow: auto;
+}
+
+.quiet {
+    color:#666;
+}
+
+.split {
+   width: 100%;
+ }
+
+.split a.atitle{
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.split ul {
+  width: 100%;
+  font-weight: normal;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.split ul li a {
+  text-decoration: none;
+  padding: 8px 0px;
+  display: block;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .split ul li {
+      width: 100%;
+      float: none;
+      display: inline-block;
+    }
+
+}
+
+
+@media only screen and (min-width: 961px) {
+
+    .split p{
+        font-size: 85%;
+    }
+
+    /*.split ul li:nth-of-type(odd) {
+        padding-right: 20px;
+    }
+
+    .split ul li:nth-of-type(even) {
+        padding-left: 20px
+    }
+
+    .split ul li {
+      width: 50%;
+      float: left;
+      display: inline-block;
+    }*/
+
+}

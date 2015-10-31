@@ -5,15 +5,15 @@ badges:
     alt: build status
     img: https://api.travis-ci.org/Bilalh/gmusic-sync-rating.svg
     url: https://travis-ci.org/Bilalh/gmusic-sync-rating
-date: 2015-10-25T18:12:29Z
+date: 2015-10-31T21:15:45Z
 description: Description
-info: Nam fringilla odio ante, ac. Curabitur ornare ornare turpis, nec lobortis enim dapibus quis. Quisque quis fringilla tellus. Praesent ac
+info: Proin nec nulla interdum, fringilla.
 draft: true
 ghribbon: white-upright
 github: bilalh/title
 tags:
 - code
-title: cputimeout
+title: TimerBar
 topics:
 - project
 type: code
