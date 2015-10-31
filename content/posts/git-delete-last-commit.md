@@ -18,7 +18,7 @@ If you have committed files that you shouldn't have (e.g passwords, keys) you ca
 git reset --hard HEAD~1
 ```
 
-`Head~1` means the pervious commit, you can also use the SHA-1 of a commit to **delete** all commits back to that commit.  
+`HEAD~1` means the pervious commit, you can also use the SHA-1 of a commit to **delete** all commits back to that commit.  
 
 >   Note that `--hard` gets rid of **any** changes from the selected commit(s). Use `--soft` to leave the files as `changes to be committed`.
 
