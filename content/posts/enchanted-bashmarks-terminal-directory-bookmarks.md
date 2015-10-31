@@ -18,7 +18,7 @@ type: post
 Usage Example
 -------------
 
-```shell
+```
 $ cd ~/home/projects/www/
 $ s web
 $ cd /usr/local/lib/
@@ -38,7 +38,7 @@ Extra Features
 --------------
 * if no bookmark name is specified the default directory is used instead  ($HOME unless changed)
 
-```shell
+```
 cd ~/projects
 s
 g              # g now defaults to ~/projects
@@ -46,7 +46,7 @@ g              # g now defaults to ~/projects
 
 
 * Commands can be placed after the bookmark  
-```shell
+```
 $ g web ls     # cd to ~/home/projects/www/ then executes ls
 ~/var/www/
 index.html
@@ -56,7 +56,7 @@ $
 
 * cd like features
 
-```shell
+```
 g -   # does cd -
 g ..  # does cd ..
 g /   # does cd /
@@ -67,7 +67,7 @@ g /   # does cd /
 * `o` command which opens the specified bookmark in Finder
 * `t` command which opens the specified bookmark in a new Terminal tab.
 
-```shell
+```
 t web          # opens ~/home/projects/www/  in a new tab
 cd javascript
 t              # opens ~/home/projects/www/javascript in a new tab

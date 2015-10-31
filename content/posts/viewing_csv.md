@@ -14,7 +14,7 @@ type: post
 
 It can be convenient to view a `.csv` file from the command line, when using SSH connection for example.  A basic version with no dependencies is as  follows:
 
-```shell
+```bash
 function see_csv(){
     column -s, -t <"$1" | less --shift 2  -S -N
 }
@@ -22,7 +22,7 @@ function see_csv(){
 
 with example output
 
-```csv
+```
 1 seq    run_no  kind        iterations  timeout
 2 12001  1       undirected  64          600
 3 12002  1       nsample     64          600

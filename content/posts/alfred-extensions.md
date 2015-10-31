@@ -15,11 +15,11 @@ type: post
 
 Workflows and Extensions for [Alfred](www.alfredapp.com) hosted on [https://github.com/Bilalh/AlfredExtensions](https://github.com/Bilalh/AlfredExtensions)
 
-## Itunes Ratings
+## iTunes Ratings
 
 Allows you to set the rating of the currently playing song. Support halves stars and empty ratings
 
-![Alfred Itunes](/blog/media/posts/alfred_itunes.png)
+![Alfred iTunes](/blog/media/posts/alfred_itunes.png)
 
 
 
@@ -30,6 +30,6 @@ based off [https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows
 
 A file action which toggles the visibility of  file extensions for the selected files'  
 
-## bashmarks
+## Shellmarks
 
-Allow the use of  [Bashmarks](http://bilalh.github.com/2012/01/14/enchanted-bashmarks-terminal-directory-bookmarks/),  a shell script that allows you to save and jump to commonly used directories from Alfred
+Allow the use of  [Shellmarks](http://bilalh.github.com/2012/01/14/enchanted-bashmarks-terminal-directory-bookmarks/),  a shell script that allows you to save and jump to commonly used directories from Alfred
