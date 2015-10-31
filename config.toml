@@ -19,8 +19,8 @@ theme = "hyde-b"
 publishdir="_deploy"
 
 # pagination
-paginate = 10
-paginatePath = "page"
+# paginate = 3
+# paginatePath = "page"
 
 # Enable Disqus integration
 # disqusShortname = "NAME"

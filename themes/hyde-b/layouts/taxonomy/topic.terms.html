@@ -10,11 +10,9 @@
     <h2>
       <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a>
     </h2>
-    <ul>
-      {{ range $value.Pages.ByTitle }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
+    <ul id="all-posts">
+      {{range ( $value.Pages) }}
+      {{ .Render "posts-li" }}
       {{ end }}
     </ul>
   </article>

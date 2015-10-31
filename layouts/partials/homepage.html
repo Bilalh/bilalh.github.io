@@ -6,23 +6,20 @@
 
   <h2> Lastest <a href="{{ "/posts" | absURL }}"> posts </a></h2>
 
+  {{ $pagesIn := ( first 5 (where .Data.Pages "Type" "post")) }}
   <ul id="all-posts">
-    {{ range $index, ( first 5 (where .Data.Pages "Type" "post")) }}
-    <li>
-      <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
-      <time class="meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
-    </li>
+    {{ $pagesIn := ( first 5 (where .Data.Pages "Type" "post")) }}
+    {{ range $index, $pagesIn }}
+      {{ .Render "posts-li" }}
     {{ end }}
   </ul>
 
   <h2> Lastest <a href="{{ "/posts" | absURL }}"> code </a></h2>
 
   <ul id="all-posts">
-    {{ range $index, ( first 5 (where .Data.Pages "Type" "code")) }}
-    <li>
-      <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
-      <time class="meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
-    </li>
+    {{ $pagesIn := ( first 5 (where .Data.Pages "Type" "code")) }}
+    {{ range $index, $pagesIn }}
+      {{ .Render "posts-li" }}
     {{ end }}
   </ul>
 
