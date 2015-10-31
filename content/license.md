@@ -1,8 +1,8 @@
 License
-=================================
+=======
 
 The content of all posts unless specified otherwise are licensed under the
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>
 
 In addition code snippets embed inside posts are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0"> Apache License 2.0 </a> shown below:
 
