@@ -6,7 +6,7 @@
   <ul class="container content">
   {{ $baseurl := .Site.BaseURL }}
   {{ $data := .Data }}
-  {{ range $key,$value := .Data.Terms.ByCount }}
+  {{ range $key,$value := .Data.Terms.Alphabetical }}
     <li>
       <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}">
         {{ $value.Name }}
