@@ -1,43 +1,35 @@
 ---
 author: Bilal Syed Hussain
-date: 2015-10-28T00:54:16Z
-description: description
-draft: true
-keywords:
-- key
+date: 2011-10-22T23:20:14Z
+modified: 2015-11-01T03:17:28Z
+description: Blueboard theme for Textmate and atom
+draft: false
 tags:
-- one
-title: textmate theme
+- ui
+- textMate
+title: Blueboard TextMate Theme
 topics:
-- topic 1
+- tools
 type: post
----
-
----
-layout: post
-title: TextMate Theme
-date: 2011-10-22 23:20:14
-category: OSX
-tags:
- - Utilities
- - TextMate
 ---
 
 My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:
 
 Ruby
 ----
-![Ruby](/images/posts/ruby.png)
+![Ruby]({{< path "media/posts/textmate/ruby.png" >}})
 TeX
 ---
-![Tex](/images/posts/tex.png)
+![Tex]({{< path "media/posts/textmate/tex.png" >}})
 Markdown
 --------
-![Markdown](/images/posts/markdown.png)
+![Markdown]({{< path "media/posts/textmate/markdown.png" >}})
 CSS
 ---
-![css](/images/posts/css.png)
+![css]({{< path "media/posts/textmate/css.png" >}})
 
-[Download Link](https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme "Blueboard TextMate theme") 
+
+<a href="https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme" download="Blueboard.tmTheme">Download Link</a>
+
 
 [GitHub Repository](https://github.com/Bilalh/TextMateThemes "Blueboard TextMate theme Repository")
