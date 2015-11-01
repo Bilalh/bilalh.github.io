@@ -3,7 +3,7 @@ author: Bilal Syed Hussain
 description: A timer in your menubar.
 info: A timer in your menubar. Also allows you to set a global hotkey to start/pause and stop the timer.
 draft: false
-github: bilalh/TimerBar
+github: Bilalh/TimerBar
 title: TimerBar
 type: code
 num: 0

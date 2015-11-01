@@ -9,7 +9,6 @@ type: code
 num: 100
 languages:
     - C
-    - Objective C  
     - Icons
 aliases:
     - projects/mplayer-osx-extended/

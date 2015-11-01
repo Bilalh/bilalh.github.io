@@ -1,6 +1,6 @@
 ---
 author: Bilal Syed Hussain
-badges:
+badges_:
   build:
     alt: build status
     img: https://api.travis-ci.org/Bilalh/gmusic-sync-rating.svg

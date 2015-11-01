@@ -1,4 +1,4 @@
-{{ if isset .Params "github" }}
+{{ if isset .Params "github_r" }}
 
 {{ $upleft := .Site.Data.Modules.GithubRibbons.Upleft }}
 {{ $upright := .Site.Data.Modules.GithubRibbons.Upright }}
@@ -41,7 +41,7 @@
   {{ $.Scratch.Set "pos" "upleft" }}
 {{ end }}
 
-{{ with .Params.github }}
+{{ with .Params.github_r }}
 <a class="ribbon git {{ $.Scratch.Get "pos" }}" href="https://github.com/{{ . }}">
   <img
     src="{{ $.Scratch.Get "img" }}"
