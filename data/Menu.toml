@@ -1,7 +1,7 @@
 [about]
   Name = "about"
-  Title = "About me"  
-  URL = "http://bilalsyedhussain.com/"
+  Title = "About me"
+  URL = "https://bh246.host.cs.st-andrews.ac.uk"
 
 [code]
   Name = "code"
@@ -25,4 +25,4 @@
 [research]
   Name  = "research"
   Title = "Show my research"
-  URL   = "http://bilalsyedhussain.com/"
+  URL   = "https://bh246.host.cs.st-andrews.ac.uk"
