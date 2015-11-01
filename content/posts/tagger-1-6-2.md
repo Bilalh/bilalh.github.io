@@ -2,7 +2,7 @@
 author: Bilal Syed Hussain
 date: 2012-09-22T16:07:03Z
 description: Tagger 1.6.2 has been released
-draft: true
+draft: false
 tags:
 - release
 title: Tagger 1.6.2
@@ -22,9 +22,9 @@ Tagger 1.6.2 has been released.
 
 [Download Link](https://github.com/downloads/Bilalh/Tagger/Tagger_1.6.2.zip "Tagger 1.6 Binary")
 
-[Full Changelog](http://localhost/projects/tagger/changelog.html "Tagger Changelog")
+[Full Changelog]( {{< path "projects/tagger/changelog.html" >}} "Tagger Changelog")
 
-[Project Page](http://localhost/projects/tagger "Tagger Project Page")
+[Project Page]( {{< path "projects/tagger/" >}}"Tagger Project Page")
 
 
 [GitHub Repository](https://github.com/Bilalh/tagger "Tagger github Repository")
