@@ -1,7 +1,6 @@
 ---
 author: Bilal Syed Hussain
-date: 2011-10-15T22:37:32Z
-modified: 2015-10-28T19:12Z
+date: 2015-11-01T01:10:13Z
 description: Shellmarks is a shell script that allows you to save and jump to commonly used directories
 draft: true
 tags:
@@ -10,6 +9,8 @@ title: Shellmarks - terminal directory bookmarks
 topics:
 - scripting
 type: post
+aliases:
+  - /2012/01/14/enchanted-bashmarks-terminal-directory-bookmarks/
 ---
 
 
