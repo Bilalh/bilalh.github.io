@@ -9,7 +9,10 @@
       {{ range $index, .Data.Pages }}
         <li>
           <a class='atitle'  href="{{ .Permalink }}">{{ .Title }}</a>
-          <span class="quiet small">Shell &nbsp;&nbsp;C++</span><br>
+          <span class="quiet small">
+            Shell &nbsp;&nbsp;C++
+          </span>
+          <br>
           <div>
             <p> {{.Params.info}} </p>
             <a href="{{ .Permalink }}">Read more...</a>
