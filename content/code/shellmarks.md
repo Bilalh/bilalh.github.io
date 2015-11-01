@@ -9,6 +9,8 @@ type: code
 num: 10
 languages:
     - Shell
+aliases:
+    - /bashmarks
 ---
 
 `shellmarks` is a shell script that allows you to save and jump to commonly used directories with tab completion.
