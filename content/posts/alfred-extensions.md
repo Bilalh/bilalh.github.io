@@ -2,8 +2,8 @@
 author: Bilal Syed Hussain
 date: 2013-03-29T00:15:21Z
 modified: 2015-10-28T18:21
-description: description
-draft: true
+description: Workflows and Extensions for Alfred App
+draft: false
 tags:
 - osx
 title: Alfred Extensions
@@ -19,7 +19,7 @@ Workflows and Extensions for [Alfred](www.alfredapp.com) hosted on [https://gith
 
 Allows you to set the rating of the currently playing song. Support halves stars and empty ratings
 
-![Alfred iTunes](/blog/media/posts/alfred_itunes.png)
+![Alfred iTunes]({{< path "/media/posts/alfred_itunes.png" >}})
 
 
 
@@ -28,8 +28,8 @@ based off [https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows
 
 ## Toggle Extension
 
-A file action which toggles the visibility of  file extensions for the selected files'  
+A file action which toggles the visibility of file extensions for the selected files
 
 ## Shellmarks
 
-Allow the use of  [Shellmarks](http://bilalh.github.com/2012/01/14/enchanted-bashmarks-terminal-directory-bookmarks/),  a shell script that allows you to save and jump to commonly used directories from Alfred
+Allow the use of [Shellmarks]({{< ref "shellmarks-terminal-directory-bookmarks.md" >}}),  a shell script that allows you to save and jump to commonly used directories from Alfred.
