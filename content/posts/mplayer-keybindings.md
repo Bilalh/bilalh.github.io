@@ -3,7 +3,7 @@ author: Bilal Syed Hussain
 date: 2011-12-09T06:25:32Z
 modified: 2015-10-31T15-54-56Z
 description: description
-draft: true
+draft: false
 tags:
 - Tools
 - MPlayer
@@ -15,7 +15,7 @@ type: post
 
 
 A list of MPlayer's keybindings since it hard to find a complete list online.
-If using a Mac consider using [MPlayer OSX Extended](/projects/mplayer-osx-extended/ "MPlayer OSX Extended") which is the best GUI for MPlayer on the mac.
+If using a Mac consider using [MPlayer OSX Extended]( {{< path "mplayer-osx-extended/" >}} "MPlayer OSX Extended") which is the best GUI for MPlayer on the mac.
 
 <table  >
 	<tbody><tr> <td colspan="2" class='row-sub-heading'> Common  </td> </tr>

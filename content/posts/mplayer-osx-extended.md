@@ -24,11 +24,11 @@ tags:
 
 A new binary of [MPlayer OSX Extended](/projects/mplayer-osx-extended/ "MPlayer OSX Extended") has been released  
 
-[Download Link](https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended.zip "MPlayer OSX Extended Binary") 
+[Download Link](https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended.zip "MPlayer OSX Extended Binary")
 
 [GitHub Repository](https://github.com/Bilalh/MPlayer-OSX-Extended "MPlayer OSX Extended GitHub Repository")
 
-New Features 
+New Features
 --------
 
 ### File Types Information ###
@@ -38,13 +38,13 @@ I added type information about movies as shown below. This gives the user more i
 
 
 ### Media Keys ###
-Support for media keys (F7, F8, F9) on Apple keyboards has been added. 
+Support for media keys (F7, F8, F9) on Apple keyboards has been added.
 
-| Key              | Function          |
-| ---------------- | ----------------- |
-| PlayPause (F8)   |  Plays/Pauses     |
-| Rewind(F7)       |  Skip to Previous |
-| Fast forward(F9) |  Skip to Next     |
+| Key              | Function         |
+|:-----------------|:-----------------|
+| PlayPause (F8)   | Plays/Pauses     |
+| Rewind(F7)       | Skip to Previous |
+| Fast forward(F9) | Skip to Next     |
 
 
 ### Keyboard ###
@@ -74,5 +74,5 @@ Icons for all the file types have been added, below are a sample the rest can se
 #### Subtitles Icons ####
 ![Subtitles Icons](/images/projects/MPlayer-OSX-Extended/Subtitles.png)
 
-#### Binary Icon #### 
+#### Binary Icon ####
 ![Binary Icon](/images/projects/MPlayer-OSX-Extended/Binary.png)

@@ -9,7 +9,8 @@ title: Tagger 1.6.2
 topics:
 - tools
 type: post
-alias: /2012/09/22/tagger-1-6-2/
+aliases:
+- /2012/09/22/tagger-1-6-2/
 ---
 
 Tagger 1.6.2 has been released.
