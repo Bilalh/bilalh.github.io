@@ -9,6 +9,8 @@ title: Useful sed commands
 topics:
 - Scripting
 type: post
+aliases:
+ - /2011/10/09/using-sed/
 ---
 
 
