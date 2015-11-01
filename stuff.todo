@@ -1,18 +1,19 @@
 posts:
     ☐ write one new post
-    ☐ finish old posts
+    ✔ finish old posts @done(2015-11-01 05:03) @project(posts)
     ☐ missing posts
 
 code:
     ✔ Tagger imported @done(2015-11-01 00:35) @project(code)
     ☐ other projects
     ☐ cputimeout
+    ☐ languages notes
 
 release:
     ☐ posts redirects
     ☐ code redirects
     ☐ tags redirects
-    ☐ topic redirects
-    ☐ archive redirects
+    ✔ topic redirects @done(2015-11-01 05:03) @project(release)
+    ✔ archive redirects @done(2015-11-01 05:03) @project(release)
     ☐ test in browsers
     ☐ test media icon work get pick up by google

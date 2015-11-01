@@ -1,18 +1,18 @@
 ---
 author: Bilal Syed Hussain
-date: 2015-10-31T19:58:46Z
 description: Contributions to MPlayer OSX Extended
 info: MPlayer OSX Extended is a video player leveraging the power of the MPlayer and FFmpeg. I have contributed icons and some features to the project and up to data binaries.
 draft: false
 github: Bilalh/MPlayer-OSX-Extended
-tags:
-- code
 title: MPlayer OSX Extended
-topics:
-- project
 type: code
+num: 100
+languages:
+    - C
+    - Objective C  
+    - Icons
 aliases:
-- projects/mplayer-osx-extended/ 
+    - projects/mplayer-osx-extended/
 ---
 
 

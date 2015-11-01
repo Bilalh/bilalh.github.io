@@ -131,3 +131,30 @@ td.row-sub-heading{
     }*/
 
 }
+
+
+
+a.button {
+  /*width: 134px;*/
+  height: 70px;
+  line-height: 1.2;
+  /*font-size: 23px;*/
+  color: #fff;
+  padding-left: 68px;
+  padding-top: 22px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+a.button small {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.125em;
+}
+
+a.button {
+  width: 180px;
+  padding-left: 64px;
+  display: block;
+  background: url(/media/code/download-button.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 21px;
+}

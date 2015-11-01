@@ -6,11 +6,12 @@
 
   <div class="split floatfix">
     <ul>
-      {{ range $index, .Data.Pages }}
+      {{ $len := len .Data.Pages }}
+      {{ range $index, $ele := sort .Data.Pages "Params.num" }}
         <li>
-          <a class='atitle'  href="{{ .Permalink }}">{{ .Title }}</a>
+          <a class='atitle'  href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
           <span class="quiet small">
-            Shell &nbsp;&nbsp;C++
+            {{ delimit .Params.languages "&nbsp;&nbsp;" }}
           </span>
           <br>
           <div>
@@ -19,7 +20,32 @@
           </div>
         </li>
 
+        {{ if eq  $index (add $len -2)  }}
+        <li>
+          <a class='atitle'  href="{{  "tagger" | absURL }}">Tagger</a>
+          <span class="quiet small">
+            C++&nbsp;&nbsp;Objective C&nbsp;&nbsp;Ruby
+          </span>
+          <br>
+          <div>
+            <p> Tagger is an application that auto tags audio files. It also supports batch tag editing. </p>
+          </div>
+        </li>
+        {{ end }}
+
       {{ end }}
+
+      <li>
+        <a class='atitle'  href="https://github.com/Bilalh">Other Projects</a>
+        <span class="quiet small">
+          Various
+        </span>
+        <br>
+        <div>
+          <p> Other projects are hosted on Github </p>
+        </div>
+      </li>
+
     </ul>
   </div>
 </section>
