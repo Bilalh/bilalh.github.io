@@ -1,5 +1,5 @@
 # hostname (and path) to the root
-baseurl = "bilalh.github.io"
+baseurl = "https://bilalh.github.io/"
 
 # Site title
 title = "Bilal Syed Hussain"
