@@ -11,6 +11,8 @@ title: Blueboard TextMate Theme
 topics:
 - tools
 type: post
+aliases:
+    - 2011/10/23/textmate-theme
 ---
 
 My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:

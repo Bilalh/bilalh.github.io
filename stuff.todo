@@ -10,7 +10,7 @@ code:
     ✔ languages notes @done(2015-11-02 00:06) @project(code)
 
 release:
-    ☐ posts redirects
+    ✔ posts redirects @done(2015-11-02 01:57) @project(release)
     ✔ code redirects @done(2015-11-02 00:53) @project(release)
     ✔ tags redirects @done(2015-11-02 00:54) @project(release)
     ✔ topic redirects @done(2015-11-01 05:03) @project(release)
