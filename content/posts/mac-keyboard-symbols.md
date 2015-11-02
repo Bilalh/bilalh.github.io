@@ -1,7 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-09-08T00:22:57Z
-description: description
+modified: 2015-11-01T01:15:07Z
+description: A list of special symbols on a mac keyboard with their name and Unicode equivalents
 draft: false
 tags:
 - osx

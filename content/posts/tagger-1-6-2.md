@@ -1,13 +1,14 @@
 ---
 author: Bilal Syed Hussain
 date: 2012-09-22T16:07:03Z
+modified: 2015-11-01T01:16:51Z
 description: Tagger 1.6.2 has been released
 draft: false
 tags:
-- release
+- osx
 title: Tagger 1.6.2
 topics:
-- tools
+- release
 type: post
 aliases:
 - /2012/09/22/tagger-1-6-2/

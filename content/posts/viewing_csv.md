@@ -1,6 +1,7 @@
 ---
 author: Bilal Syed Hussain
 date: 2015-10-31T16:46:31Z
+modified: 2015-11-02T00:17:41Z
 description: Pretty printing a .csv file to get nicely aligned output on the command line.
 draft: false
 tags:
@@ -8,7 +9,7 @@ tags:
 - text processing
 title: Viewing .csv files on the command line
 topics:
-- tools
+- scripting
 type: post
 ---
 

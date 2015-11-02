@@ -1,7 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2012-04-22T22:01:23Z
-description: description
+modified: 2015-11-01T01:16:22Z
+description: Pipe output from a command line tool to a text editor on OS X
 draft: false
 tags:
 - osx

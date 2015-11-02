@@ -1,7 +1,7 @@
 ---
 author: Bilal Syed Hussain
 date: 2015-11-01T06:11:55Z
-description: Description
+description: I maintain the website of CSPLib, a library of test problems for constraint solvers.
 draft: false
 github: csplib/csplib
 info: info

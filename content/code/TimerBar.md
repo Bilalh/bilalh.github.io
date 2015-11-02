@@ -9,6 +9,8 @@ type: code
 num: 0
 languages:
     - Objective C  
+aliases:
+    - /projects/TimerBar   
 ---
 
 

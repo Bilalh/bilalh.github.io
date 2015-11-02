@@ -1,7 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-10-09T17:20:59Z
-description: description
+modified: 2015-11-01T01:17:04Z
+description: Useful sed commands for text processing
 draft: false
 tags:
 - shell

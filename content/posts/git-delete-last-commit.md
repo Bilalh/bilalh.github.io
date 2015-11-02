@@ -1,7 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-09-09T20:36:06Z
-description: description
+modified: 2015-11-01T01:14:39Z
+description: How delete the last git commit
 draft: false
 tags:
 - git

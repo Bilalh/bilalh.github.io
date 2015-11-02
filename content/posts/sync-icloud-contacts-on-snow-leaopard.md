@@ -1,8 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2012-04-15T04:50:10Z
-modified: 2012-04-15T04:50:10Z
-description: description
+modified: 2015-11-01T01:16:41Z
+description: Sync iCloud Calendars on OS X 10.6, Snow Leaopard 
 draft: false
 tags:
 - osx

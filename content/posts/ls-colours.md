@@ -1,7 +1,8 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-09-10T00:12:45Z
-description: description
+modified: 2015-11-01T01:14:52Z
+description: ls displayed in colour.
 draft: false
 tags:
 - shell
