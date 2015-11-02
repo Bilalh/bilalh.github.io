@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/git/</link>
+    <description>Recent content in Git on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Fri, 09 Sep 2011 20:36:06 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git Delete Last Commit</title>
+      <link>/bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
+      <pubDate>Fri, 09 Sep 2011 20:36:06 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
+      <description>&lt;p&gt;If you have committed files that you shouldn&amp;rsquo;t have (e.g. passwords) you can use the following to delete the last commit provided the commit has not been pushed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git reset --hard HEAD~1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;HEAD~1&lt;/code&gt; means the pervious commit, you can also use the SHA-1 of a commit to &lt;strong&gt;delete&lt;/strong&gt; all commits back to that commit.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note that &lt;code&gt;--hard&lt;/code&gt; gets rid of &lt;strong&gt;any&lt;/strong&gt; changes from the selected commit(s). Use &lt;code&gt;--soft&lt;/code&gt; to leave the files as &lt;code&gt;changes to be committed&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have pushed the commit then you can either do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git revert HEAD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which creates a &lt;strong&gt;new&lt;/strong&gt; commit that revert changes in the last commit but the data is still present in the history of the repository.&lt;/p&gt;
+
+&lt;p&gt;Even if you tried to do &lt;code&gt;git push --force&lt;/code&gt; after you deleted the commit from your copy the data will exist in people locals copies until they pull the latest changes. This also makes merging a lot more difficult.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

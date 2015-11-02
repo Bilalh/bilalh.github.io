@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text Processing on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/text-processing/</link>
+    <description>Recent content in Text Processing on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Sat, 31 Oct 2015 16:46:31 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/text-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Viewing .csv files on the command line</title>
+      <link>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</link>
+      <pubDate>Sat, 31 Oct 2015 16:46:31 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</guid>
+      <description>&lt;p&gt;It can be convenient to view a &lt;code&gt;.csv&lt;/code&gt; file from the command line, when using SSH connection for example.  A basic version with no dependencies is as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function see_csv(){
+    column -s, -t &amp;lt;&amp;quot;$1&amp;quot; | less --shift 2  -SN
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with example output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1 seq    run_no  kind        iterations  timeout
+2 12001  1       undirected  64          600
+3 12002  1       nsample     64          600
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To handle blank fields we can use &lt;code&gt;sed&lt;/code&gt; to add extra spaces for use with &lt;code&gt;column&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function see_csv(){
+    cat &amp;quot;$1&amp;quot; | sed &#39;s/,,/, ,/g;s/,,/, ,/g&#39; | column -s, -t | less --shift 2 -SN
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If the &lt;code&gt;.csv&lt;/code&gt; has many columns, you change the &lt;code&gt;less&lt;/code&gt; options to the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function see_csv(){
+    cat &amp;quot;$1&amp;quot; | sed &#39;s/,,/, ,/g;s/,,/, ,/g&#39; | column -s, -t | less -SN -Xs
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So that the columns that can fit on the screen are printed, for convenience.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;❯ see_csv experiment.csv
+      1 seq    run_no  kind        iterations param timeout  
+      2 16001  1       undirected  64               38400            
+      3 16002  1       nsample     64               38400            
+      4 16003  1       undirected  64               38400            
+
+~/Desktop/Results/
+❯
+
+~/Desktop/Results/
+❯
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To access any addition columns use the arrow keys, this will cause the screen to be redrawn.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

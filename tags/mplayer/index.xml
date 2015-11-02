@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mplayer on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/mplayer/</link>
+    <description>Recent content in Mplayer on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Fri, 18 May 2012 13:48:44 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MPlayer OSX Extended Release 2</title>
+      <link>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</link>
+      <pubDate>Fri, 18 May 2012 13:48:44 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</guid>
+      <description>
+
+&lt;p&gt;This is build contains all the features in the &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/&#34;&gt;previous build&lt;/a&gt; with a few new additions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended%20rev15-test1-build%202.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Bilalh/MPlayer-OSX-Extended&#34; title=&#34;MPlayer OSX Extended GitHub Repository&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+
+&lt;h3 id=&#34;proxy-icons&#34;&gt;Proxy Icons&lt;/h3&gt;
+
+&lt;p&gt;I Added a Proxy Icon when a file is playing, which  is invoke by clicking on the icon in the menu bar, this brings up the menu shown below which allows the user to open the folder the movie is placed in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/proxy_icon.png
+&#34; alt=&#34;Proxy Icon&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;next-episode&#34;&gt;Next Episode&lt;/h3&gt;
+
+&lt;p&gt;A menu item (Play Next Episode) that plays the next episode based on the currently playing file was added in previous build and was bound to ⌘E. This works for most formats of naming including&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;File Name 01
+File_Name_1
+File Name Episode 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This build added an extra option to play the next episode automatically, saving the user  from clicking on the &lt;code&gt;Play Next Episode&lt;/code&gt; menu item each time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/next_menu.png
+&#34; alt=&#34;Next Menu&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h2&gt;
+
+&lt;p&gt;Nearly all of he features have been merged in the main repository, meaning that will no compatibility issues in the future.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-improvements&#34;&gt;Other Improvements&lt;/h2&gt;
+
+&lt;p&gt;This build also contains other features to improve the image quality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPlayer OSX Extended Release 1</title>
+      <link>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</link>
+      <pubDate>Tue, 20 Dec 2011 17:37:31 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</guid>
+      <description>
+
+&lt;p&gt;A new binary of &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+&#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; has been released&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Bilalh/MPlayer-OSX-Extended&#34; title=&#34;MPlayer OSX Extended GitHub Repository&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+
+&lt;h3 id=&#34;file-types-information&#34;&gt;File Types Information&lt;/h3&gt;
+
+&lt;p&gt;I added type information about movies as shown below. This gives the user more info when looking at video/audio  files in Finder.
+&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
+&#34; alt=&#34;Filetypes&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;media-keys&#34;&gt;Media Keys&lt;/h3&gt;
+
+&lt;p&gt;Support for media keys (F7, F8, F9) on Apple keyboards has been added.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PlayPause (F8)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Plays/Pauses&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Rewind(F7)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Skip to Previous&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Fast forward(F9)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Skip to Next&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
+
+&lt;p&gt;All of MPlayer keyboard shortcuts have been added, a list of keyboard shortcuts is in the help and can be viewed &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/09/mplayer-keybindings/&#34; title=&#34;Complete List of keyboard shortcuts&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;help&#34;&gt;Help&lt;/h3&gt;
+
+&lt;p&gt;I am (re)wrote most of the help&lt;/p&gt;
+
+&lt;h3 id=&#34;next-episode&#34;&gt;Next Episode&lt;/h3&gt;
+
+&lt;p&gt;A menu item (Play Next Episode) that plays the next episode based on the currently playing file has been added and is bound to  ⌘E. This works for most formats of naming including&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;File Name 01&lt;/li&gt;
+&lt;li&gt;File_Name_1&lt;/li&gt;
+&lt;li&gt;File Name Episode 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+
+&lt;p&gt;Icons for all the file types have been added, below are a sample the rest can seen &lt;a href=&#34;https://github.com/Bilalh/MPlayer-OSX-Extended/tree/build/extras/File%20Type%20Icons&#34; title=&#34;Complete set of icons&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;video-icons&#34;&gt;Video Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
+&#34; alt=&#34;Video Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;audio-icons&#34;&gt;Audio Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
+&#34; alt=&#34;Audio Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;subtitles-icons&#34;&gt;Subtitles Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
+&#34; alt=&#34;Subtitles Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;binary-icon&#34;&gt;Binary Icon&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
+&#34; alt=&#34;Binary Icon&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPlayer keybindings</title>
+      <link>/bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
+      <pubDate>Fri, 09 Dec 2011 06:25:32 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
+      <description>&lt;p&gt;A list of MPlayer&amp;rsquo;s keybindings since it hard to find a complete list online.
+If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+&#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; which is the best GUI for MPlayer on the mac.&lt;/p&gt;
+
+&lt;table  &gt;
+    &lt;tbody&gt;&lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Common  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  p / SPACE  &lt;/td&gt;  &lt;td&gt; Pause (pressing again unpauses). &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  q / ESC  &lt;/td&gt;  &lt;td&gt; Stop playing. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  f  &lt;/td&gt;  &lt;td&gt; Toggle fullscreen &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  #  &lt;/td&gt;  &lt;td&gt; Cycle through the available audio tracks. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  T  &lt;/td&gt;  &lt;td&gt; Toggle stay-on-top &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Navigation &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  ← and →  &lt;/td&gt;  &lt;td&gt; Seek backward/forward 10 seconds. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ↓ and ↑   &lt;/td&gt;  &lt;td&gt; Seek backward/forward 1 minute. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  Pagedown and Pageup  &lt;/td&gt;  &lt;td&gt; Seek backward/forward 10 minutes. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ! and @  &lt;/td&gt;  &lt;td&gt; Seek to the beginning of the previous/next chapter. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Volume&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  / and *  &lt;/td&gt;  &lt;td&gt; Decrease/increase volume. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  9 and 0  &lt;/td&gt;  &lt;td&gt; Decrease/increase volume. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  m  &lt;/td&gt;  &lt;td&gt; Mute sound. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Subtitles&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  j  &lt;/td&gt;  &lt;td&gt; Cycle through the available subtitles. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  J  &lt;/td&gt;  &lt;td&gt; Cycle through the available subtitles backwards. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  y and g  &lt;/td&gt;  &lt;td&gt; Step forward/backward in the subtitle list.  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  x and z  &lt;/td&gt;  &lt;td&gt; Adjust subtitle delay by +/- 0.1 seconds. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Playlists&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;    &lt;tr&gt;&lt;td&gt;  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  &amp;lt; and &amp;gt;  &lt;/td&gt;  &lt;td&gt; Go backward/forward in the playlist. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ENTER  &lt;/td&gt;  &lt;td&gt; Go forward in the playlist. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  HOME and END  &lt;/td&gt;  &lt;td&gt; next/previous playtree entry in the parent list. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Information &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  I  &lt;/td&gt;  &lt;td&gt; Show filename on the OSD. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  P  &lt;/td&gt;  &lt;td&gt; Show current time/total time &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  o  &lt;/td&gt;  &lt;td&gt; Toggle OSD states: none / seek / seek + timer / seek + timer + total time. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  ⇥ (Tab)  &lt;/td&gt;  &lt;td&gt; Cycle timestamp display modes &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34;&gt; \1 &lt;/td&gt; &lt;/tr&gt;  
+    &lt;tr&gt;  &lt;td&gt;  + and -  &lt;/td&gt;  &lt;td&gt; Adjust audio delay by +/- 0.1 seconds.  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  d  &lt;/td&gt;  &lt;td&gt; Toggle frame dropping states: none / skip display / skip decoding. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Playback Speed&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  [ and ]  &lt;/td&gt;  &lt;td&gt; Decrease/increase current playback speed by 10%. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  { and }  &lt;/td&gt;  &lt;td&gt; Halve/double current playback speed. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  backspace  &lt;/td&gt;  &lt;td&gt; Reset playback speed to normal &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Video Equaliser&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  1 and 2  &lt;/td&gt;  &lt;td&gt; Adjust contrast. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  3 and 4  &lt;/td&gt;  &lt;td&gt; Adjust brightness. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  5 and 6  &lt;/td&gt;  &lt;td&gt; Adjust hue. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  7 and 8  &lt;/td&gt;  &lt;td&gt; Adjust saturation. &lt;/td&gt; &lt;/tr&gt;
+
+
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

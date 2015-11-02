@@ -1,0 +1,4 @@
+excludeInFileChooser  = "{$excludeInFileChooser,_deploy,highlight,themes}"
+excludeInFolderSearch = "{$excludeInFileChooser,_deploy,highlight,themes}"
+
+TM_RAKE_TASK         = local

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applescript on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/applescript/</link>
+    <description>Recent content in Applescript on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Mon, 29 Aug 2011 00:30:16 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>fn lock</title>
+      <link>/bilalh.github.io/2011/08/29/fn-lock/</link>
+      <pubDate>Mon, 29 Aug 2011 00:30:16 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/08/29/fn-lock/</guid>
+      <description>&lt;p&gt;The below script toggles the function keys on a mac&amp;rsquo;s keyboards, between the media keys and the standard functions keys.&lt;/p&gt;
+
+&lt;p&gt;The script is most useful in either the script menu, which is done by placing the script in the &lt;code&gt;/Library/Scripts/&lt;/code&gt; or using by setting a keyboard shortcut using  Alfred/Quicksilver.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-applescript&#34;&gt;tell application &amp;quot;System Preferences&amp;quot;
+	set current pane to pane &amp;quot;com.apple.preference.keyboard&amp;quot;
+end tell
+
+
+tell application &amp;quot;System Events&amp;quot;
+	if UI elements enabled then
+		tell application process &amp;quot;System Preferences&amp;quot;
+			get properties
+			click radio button &amp;quot;Keyboard&amp;quot; of tab group 1 of window &amp;quot;Keyboard&amp;quot;
+			click checkbox &amp;quot;Use all F1, F2, etc. keys as standard function keys&amp;quot; ¬
+				of tab group 1 of window &amp;quot;Keyboard&amp;quot;
+
+		end tell
+
+	else
+		tell application &amp;quot;System Preferences&amp;quot;
+			activate
+			set current pane ¬
+				to pane &amp;quot;com.apple.preference.universalaccess&amp;quot;
+			display dialog ¬
+				&amp;quot;UI element scripting is not enabled. Check \&amp;quot;Enable access for assistive devices\&amp;quot;&amp;quot;
+		end tell
+	end if
+end tell
+
+tell application &amp;quot;System Preferences&amp;quot;
+	quit
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/topics/tools/</link>
+    <description>Recent content in Tools on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Sat, 22 Oct 2011 23:20:14 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/topics/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blueboard TextMate Theme</title>
+      <link>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
+      <pubDate>Sat, 22 Oct 2011 23:20:14 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
+      <description>
+
+&lt;p&gt;My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:&lt;/p&gt;
+
+&lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/ruby.png
+&#34; alt=&#34;Ruby&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tex&#34;&gt;TeX&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/tex.png
+&#34; alt=&#34;Tex&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/markdown.png
+&#34; alt=&#34;Markdown&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/css.png
+&#34; alt=&#34;css&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme&#34; download=&#34;Blueboard.tmTheme&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Bilalh/TextMateThemes&#34; title=&#34;Blueboard TextMate theme Repository&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ls colours</title>
+      <link>/bilalh.github.io/2011/09/10/ls-colours/</link>
+      <pubDate>Sat, 10 Sep 2011 00:12:45 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/09/10/ls-colours/</guid>
+      <description>&lt;p&gt;To get &lt;code&gt;ls&lt;/code&gt; colours  on a mac add the follow to your &lt;code&gt;.bash_profile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#light colours
+export LSCOLORS=ExFxCxDxbxegedabagacad
+
+# dark colours
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Delete Last Commit</title>
+      <link>/bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
+      <pubDate>Fri, 09 Sep 2011 20:36:06 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
+      <description>&lt;p&gt;If you have committed files that you shouldn&amp;rsquo;t have (e.g. passwords) you can use the following to delete the last commit provided the commit has not been pushed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git reset --hard HEAD~1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;HEAD~1&lt;/code&gt; means the pervious commit, you can also use the SHA-1 of a commit to &lt;strong&gt;delete&lt;/strong&gt; all commits back to that commit.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note that &lt;code&gt;--hard&lt;/code&gt; gets rid of &lt;strong&gt;any&lt;/strong&gt; changes from the selected commit(s). Use &lt;code&gt;--soft&lt;/code&gt; to leave the files as &lt;code&gt;changes to be committed&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have pushed the commit then you can either do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git revert HEAD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which creates a &lt;strong&gt;new&lt;/strong&gt; commit that revert changes in the last commit but the data is still present in the history of the repository.&lt;/p&gt;
+
+&lt;p&gt;Even if you tried to do &lt;code&gt;git push --force&lt;/code&gt; after you deleted the commit from your copy the data will exist in people locals copies until they pull the latest changes. This also makes merging a lot more difficult.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mac Keyboard Symbols</title>
+      <link>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
+      <pubDate>Thu, 08 Sep 2011 00:22:57 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
+      <description>&lt;p&gt;Below is a list of special symbols on a mac keyboard with their name and Unicode equivalents.  This could be useful for README for example&lt;/p&gt;
+
+&lt;table cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
+  &lt;tbody&gt;
+    &lt;thead&gt;
+        &lt;th&gt;Symbol&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Unicode&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⎋&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Escape&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+238B&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇥&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Tab forward&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21E5&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇤&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Tab back&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+21E4&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇪&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Capslock&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21EA&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+
+        &lt;p class=&#34;p3&#34;&gt;⇧&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Shift&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21E7&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌃&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Control&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2303&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌥&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Option (Alt, Alternative)&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2325&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Apple symbol&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+F8FF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌘&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Command (Open Apple)&lt;span class=&#34;Apple-converted-space&#34;&gt; &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2318&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;␣&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Space&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2423&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s1&#34;&gt;⏎&lt;/span&gt;&lt;br&gt;
+↩&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Return&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+23CE&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21A9&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌫&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Delete back&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+232B&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌦&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Delete forward&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2326&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p4&#34;&gt;﹖&lt;span class=&#34;s2&#34;&gt;⃝&lt;/span&gt;&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Help&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+003F &amp;amp; U+20DD&lt;/p&gt;
+      &lt;/td&gt;
+
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s3&#34;&gt;⇱&lt;/span&gt;&lt;br&gt;
+↖&lt;br&gt;
+&lt;span class=&#34;s4&#34;&gt;↸&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Home&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21F1&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+2196&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21B8&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s3&#34;&gt;⇲&lt;/span&gt;&lt;br&gt;
+↘&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;End&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21F2&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+2198&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇞&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Pageup&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21DE&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇟&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Pagedown&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+21DF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;↑&lt;/span&gt;&lt;br&gt;
+⇡&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Up arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2191&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E1&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;↓&lt;/span&gt;&lt;br&gt;
+⇣&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Down arrow&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2193&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E3&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;←&lt;/span&gt;&lt;br&gt;
+
+⇠&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Left arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2190&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E0&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;→&lt;/span&gt;&lt;br&gt;
+⇢&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Right arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2192&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E2&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌧&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Clear&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2327&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p3&#34;&gt;⇭&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Numberlock&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21ED&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌤&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Enter&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2324&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⏏&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Eject&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+23CF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌽&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Power&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+233D&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/osx/</link>
+    <description>Recent content in Osx on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Fri, 29 Mar 2013 00:15:21 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alfred Extensions</title>
+      <link>/bilalh.github.io/2013/03/29/alfred-extensions/</link>
+      <pubDate>Fri, 29 Mar 2013 00:15:21 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2013/03/29/alfred-extensions/</guid>
+      <description>
+
+&lt;p&gt;Workflows and Extensions for &lt;a href=&#34;www.alfredapp.com&#34;&gt;Alfred&lt;/a&gt; hosted on &lt;a href=&#34;https://github.com/Bilalh/AlfredExtensions&#34;&gt;https://github.com/Bilalh/AlfredExtensions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;itunes-ratings&#34;&gt;iTunes Ratings&lt;/h2&gt;
+
+&lt;p&gt;Allows you to set the rating of the currently playing song. Support halves stars and empty ratings&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/alfred_itunes.png
+&#34; alt=&#34;Alfred iTunes&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;based off &lt;a href=&#34;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&#34;&gt;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toggle-extension&#34;&gt;Toggle Extension&lt;/h2&gt;
+
+&lt;p&gt;A file action which toggles the visibility of file extensions for the selected files&lt;/p&gt;
+
+&lt;h2 id=&#34;shellmarks&#34;&gt;Shellmarks&lt;/h2&gt;
+
+&lt;p&gt;Allow the use of &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/&#34;&gt;Shellmarks&lt;/a&gt;,  a shell script that allows you to save and jump to commonly used directories from Alfred.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tagger 1.6.2</title>
+      <link>/bilalh.github.io/2012/09/22/tagger-1.6.2/</link>
+      <pubDate>Sat, 22 Sep 2012 16:07:03 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2012/09/22/tagger-1.6.2/</guid>
+      <description>&lt;p&gt;Tagger 1.6.2 has been released.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tagger launches much faster (now loads instantly compared with 10 seconds before).&lt;/li&gt;
+&lt;li&gt;File size has been reduced by over 50%.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auto tagging has been rewritten in C++/Objective C instead of Ruby hence it is much faster.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Updated Libraries.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/Tagger/Tagger_1.6.2.zip&#34; title=&#34;Tagger 1.6 Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;bilalh.github.io/projects/tagger/changelog.html
+&#34; title=&#34;Tagger Changelog&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;bilalh.github.io/projects/tagger/
+&#34; title=&#34;Tagger Project Page&#34;&gt;Project Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Bilalh/tagger&#34; title=&#34;Tagger github Repository&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pipe output from command line tools to a text editor</title>
+      <link>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</link>
+      <pubDate>Sun, 22 Apr 2012 22:01:23 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</guid>
+      <description>&lt;p&gt;A useful feature is to pipe the result of a command such as &lt;code&gt;ls&lt;/code&gt; to a text editor. This can be done by using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;	ls | open -f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Using the &lt;code&gt;-a&lt;/code&gt; flag for &lt;code&gt;open&lt;/code&gt;  makes this even more useful allowing you to specify the application to open the output in e.g to open in TextMate use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;	ls | open -f -a Textmate
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sync iCloud Calendars on OS X Snow Leaopard</title>
+      <link>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</link>
+      <pubDate>Sun, 15 Apr 2012 04:50:10 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</guid>
+      <description>
+
+&lt;p&gt;Syncing iCloud&amp;rsquo;s Calendars on Snow Leopard is quite simple. The only information that requirement is your &lt;strong&gt;iCloud Server Number&lt;/strong&gt; which nearly always in the form &lt;strong&gt;pXX-caldav.icloud.com&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;To find this number open Safari and &lt;a href=&#34;http://icloud.com/&#34;&gt;login to your iCloud&lt;/a&gt; account.&lt;/p&gt;
+
+&lt;p&gt;Click on Calendar and then chose &lt;strong&gt;Windows —&amp;gt; Activity&lt;/strong&gt; from menu bar.&lt;/p&gt;
+
+&lt;p&gt;In the window you should see something that is similar to this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p01-contactsws.icloud.com/co/mecard/?dsid=1325673149
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;strong&gt;iCloud Server Number&lt;/strong&gt; is the first part of the address namely &lt;strong&gt;p01&lt;/strong&gt; in this case.&lt;/p&gt;
+
+&lt;h2 id=&#34;syncing-ical&#34;&gt;Syncing iCal&lt;/h2&gt;
+
+&lt;p&gt;Open iCal&amp;rsquo;s Preferences, then pick the &lt;strong&gt;Accounts Tab&lt;/strong&gt;. Click the plus sign at the bottom left.&lt;/p&gt;
+
+&lt;p&gt;Fill in the fields with the following settings:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Field&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Account Type:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CalDAV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;User name:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;yourUserName@me.com&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Password:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;yourPassword&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Server Address&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;pXX-caldav.icloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;pXX is your &lt;strong&gt;iCloud Server Number&lt;/strong&gt; from above.&lt;/p&gt;
+
+&lt;p&gt;Now click create create. If it asks you to pick a server choose &lt;code&gt;pXX-caldav.icloud.com&lt;/code&gt;  from the above settings.&lt;/p&gt;
+
+&lt;p&gt;It should work now!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mac Keyboard Symbols</title>
+      <link>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
+      <pubDate>Thu, 08 Sep 2011 00:22:57 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
+      <description>&lt;p&gt;Below is a list of special symbols on a mac keyboard with their name and Unicode equivalents.  This could be useful for README for example&lt;/p&gt;
+
+&lt;table cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
+  &lt;tbody&gt;
+    &lt;thead&gt;
+        &lt;th&gt;Symbol&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Unicode&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⎋&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Escape&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+238B&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇥&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Tab forward&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21E5&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇤&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Tab back&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+21E4&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇪&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Capslock&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21EA&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+
+        &lt;p class=&#34;p3&#34;&gt;⇧&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Shift&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21E7&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌃&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Control&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2303&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌥&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Option (Alt, Alternative)&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2325&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Apple symbol&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+F8FF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌘&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Command (Open Apple)&lt;span class=&#34;Apple-converted-space&#34;&gt; &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2318&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;␣&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Space&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2423&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s1&#34;&gt;⏎&lt;/span&gt;&lt;br&gt;
+↩&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Return&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+23CE&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21A9&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌫&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Delete back&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+232B&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌦&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Delete forward&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2326&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p4&#34;&gt;﹖&lt;span class=&#34;s2&#34;&gt;⃝&lt;/span&gt;&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Help&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+003F &amp;amp; U+20DD&lt;/p&gt;
+      &lt;/td&gt;
+
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s3&#34;&gt;⇱&lt;/span&gt;&lt;br&gt;
+↖&lt;br&gt;
+&lt;span class=&#34;s4&#34;&gt;↸&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Home&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21F1&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+2196&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21B8&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s3&#34;&gt;⇲&lt;/span&gt;&lt;br&gt;
+↘&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;End&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21F2&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+2198&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇞&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Pageup&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21DE&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⇟&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Pagedown&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+21DF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;↑&lt;/span&gt;&lt;br&gt;
+⇡&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Up arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2191&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E1&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;↓&lt;/span&gt;&lt;br&gt;
+⇣&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Down arrow&lt;/p&gt;
+      &lt;/td&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2193&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E3&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;←&lt;/span&gt;&lt;br&gt;
+
+⇠&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Left arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2190&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E0&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;&lt;span class=&#34;s5&#34;&gt;→&lt;/span&gt;&lt;br&gt;
+⇢&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Right arrow&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2192&lt;span class=&#34;s2&#34;&gt;&lt;br&gt;
+&lt;/span&gt;U+21E2&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌧&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Clear&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2327&lt;/p&gt;
+
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p3&#34;&gt;⇭&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Numberlock&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+21ED&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌤&lt;/p&gt;
+
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Enter&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+2324&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⏏&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;Eject&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;U+23CF&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td1&#34;&gt;
+        &lt;p class=&#34;p1&#34;&gt;⌽&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td2&#34;&gt;
+
+        &lt;p class=&#34;p2&#34;&gt;Power&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign=&#34;top&#34; class=&#34;td3&#34;&gt;
+        &lt;p class=&#34;p2&#34;&gt;U+233D&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/code/</link>
+    <description>Recent content in Code on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Sun, 01 Nov 2015 06:11:55 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CSPLib</title>
+      <link>/bilalh.github.io/csplib/</link>
+      <pubDate>Sun, 01 Nov 2015 06:11:55 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/csplib/</guid>
+      <description>&lt;p&gt;I maintain the website of CSPLib, a library of test problems for constraint solvers. The site is generated (using Python) from markdown specifications in addition to associated metadata and data files.  I also wrote most of the scripts that perform the generation.&lt;/p&gt;
+
+&lt;p&gt;The website is located at &lt;a href=&#34;http://csplib.org&#34;&gt;http://csplib.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The github repository is located at &lt;a href=&#34;https://github.com/csplib/csplib&#34;&gt;https://github.com/csplib/csplib&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gmusic-sync-rating</title>
+      <link>/bilalh.github.io/gmusic-sync-rating/</link>
+      <pubDate>Sun, 01 Nov 2015 06:01:32 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/gmusic-sync-rating/</guid>
+      <description>
+
+&lt;p&gt;&lt;code&gt;gmusic-sync-rating&lt;/code&gt; is a command line tool to sync iTunes rating to google music. It supports the 5 star rating scale.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;gmusic-sync-rating&lt;/code&gt; can be installed from PyPI using pip:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ pip install gmusic-sync-rating
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;usage: gmusic-sync-ratings [-h] [--password PASSWORD] [--itunes-xml FILE]
+                         [--only-rated]
+                         username
+
+positional arguments:
+  username             Google music Username
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --password PASSWORD  Google music Password
+  --itunes-xml FILE    iTunes xml file
+  --only-rated         Only sync non empty ratings
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;password&#34;&gt;&lt;code&gt;--password&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;If &lt;code&gt;--password&lt;/code&gt; is not specified then &lt;code&gt;gmusic-sync-rating&lt;/code&gt; will prompt you to enter it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gmusic-sync-rating &#39;myemail@example.com&#39;
+Enter your google music password
+Password:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;only-rated&#34;&gt;&lt;code&gt;--only-rated&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Only upload non empty rating.&lt;/p&gt;
+
+&lt;h3 id=&#34;itunes-xml-file&#34;&gt;&lt;code&gt;--itunes-xml FILE&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;If you keep your iTunes library in an non standard location (i.e not ~/Music/iTunes/), you have specify the full path to iTunes Music Library.xml` in your iTunes folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;gmusic-sync-rating&lt;/code&gt; is licensed under the &lt;code&gt;Apache 2.0 License&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPlayer OSX Extended</title>
+      <link>/bilalh.github.io/mplayer-osx-extended/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/mplayer-osx-extended/</guid>
+      <description>
+
+&lt;p&gt;This page contains some of my contributions to the MPlayer OSX Extended project&lt;/p&gt;
+
+&lt;h2 id=&#34;file-types-information&#34;&gt;File Types Information&lt;/h2&gt;
+
+&lt;p&gt;I added type information about movies as shown below. This gives the user more info when looking at video/audio files in Finder.
+&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
+&#34; alt=&#34;Filetypes&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;media-keys&#34;&gt;Media Keys&lt;/h3&gt;
+
+&lt;p&gt;Support for media keys (F7, F8, F9) on Apple keyboards has been added.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PlayPause (F8)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Plays/Pauses&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Rewind(F7)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Skip to Previous&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Fast forward(F9)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Skip to Next&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;next-episode&#34;&gt;Next Episode&lt;/h2&gt;
+
+&lt;p&gt;Added a menu item (Play Next Episode) that plays the next episode based on the currently playing file. This is bound to  ⌘E&lt;/p&gt;
+
+&lt;h2 id=&#34;help&#34;&gt;Help&lt;/h2&gt;
+
+&lt;p&gt;I am (re)wrote most of the help.&lt;/p&gt;
+
+&lt;h2 id=&#34;icons&#34;&gt;Icons&lt;/h2&gt;
+
+&lt;p&gt;I made all the filetype icons for the project (34 in total), below are a sample the rest can seen &lt;a href=&#34;https://github.com/Bilalh/MPlayer-OSX-Extended/tree/build/extras/File%20Type%20Icons&#34; title=&#34;Complete set of icons&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;video-icons&#34;&gt;Video Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
+&#34; alt=&#34;Video Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;audio-icons&#34;&gt;Audio Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
+&#34; alt=&#34;Audio Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;subtitles-icons&#34;&gt;Subtitles Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
+&#34; alt=&#34;Subtitles Icons&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;binary-icon&#34;&gt;Binary Icon&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
+&#34; alt=&#34;Binary Icon&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ShellTunes</title>
+      <link>/bilalh.github.io/shelltunes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/shelltunes/</guid>
+      <description>
+
+&lt;p&gt;Control iTunes from the command line, over &lt;strong&gt;30&lt;/strong&gt; commands including play/pause, mute/unmute, playlist and play random album. Also includes scripts for getting data from Ttunes.&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Usage: &lt;code&gt;itunes.sh &amp;lt;option&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Put the scripts in your &lt;code&gt;$PATH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;See below for bash completion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Usage: itunes.sh &amp;lt;option&amp;gt;
+Options: (short)
+ (s) status          : Shows iTunes&#39; status, and track info
+ (y) play            : Start playing.
+ (a) pause           : Pause iTunes.
+ (p) playpause       : Start playing / Pauses.
+
+ (n) next            : Go to the next track.
+ (b) prev            : Go to the previous track.
+ (r) rewind          : Rewinds the current track.
+
+ (m)                 : Toggles Mute iTunes&#39; volume.
+     mute            : Mute iTunes&#39; volume.
+     unmute          : Unmute iTunes&#39; volume.
+ (v) vol up          : Increase iTunes&#39; volume by 10%
+ (v) vol down        : Increase iTunes&#39; volume by 10%
+ (v) vol #           : Set iTunes&#39; volume to # [0-100]
+
+ (@) search        {string} : Search for songs in each field (results playlist must exist)
+ (@) search [type] {string} : Search for songs by type
+                            : Types are album, artist, composer
+                            : comment, genre, grouping, name and year
+ ($)               {string} : Searching for songs using name, album and comment as fields
+
+ (l) playlist        : List all the playlists
+ (l) playlist {name} : Plays the specified playlist
+ (c) current         : List the songs of the current playlist
+
+ (d) random          : Plays a random album
+ (f) shuffle         : Toggles shuffle
+ (f) shuffle on      : Turns shuffle on
+ (f) shuffle off     : Turns shuffle off
+
+ (e) repeat all      : Set repeat to all
+ (e) repeat one      : Set repeat to on
+ (e) repeat off      : Set repeat to off
+
+
+ [0-5]              : Set the current song rating
+ (6) 4.5            : Set the current song rating to 4½ stars
+
+ (t) stop           : Stop iTunes.
+ (q) quit           : Quit iTunes.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;bash-completion&#34;&gt;Bash Completion&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add this to your &lt;code&gt;.bash_profile&lt;/code&gt; or &lt;code&gt;.bashrc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function i(){
+	itunes.sh &amp;quot;$@&amp;quot;
+}
+
+function _ilist(){
+	itunes.sh commands
+}
+
+function _icomp(){
+	local curw
+	COMPREPLY=()
+	curw=${COMP_WORDS[COMP_CWORD]}
+	COMPREPLY=($(compgen -W &#39;`_ilist`&#39; -- $curw))
+	return 0
+}
+
+#  Completion for itunes.sh
+shopt -s progcomp
+complete -F _icomp i
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TimerBar</title>
+      <link>/bilalh.github.io/timerbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/timerbar/</guid>
+      <description>
+
+&lt;p&gt;A timer in your menubar.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;https://github.com/Bilalh/TimerBar/releases/download/1.1/TimerBar-1.1.zip&#34;&gt;
+    &lt;small&gt;Version 1.1&lt;/small&gt; Download
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;time-your-tasks&#34;&gt;Time your tasks&lt;/h2&gt;
+
+&lt;p&gt;Use TimerBar to time tasks such as a talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/TimerBar/TimerBar.jpg
+&#34; width=&#34;221&#34; height=&#34;184&#34; alt=&#34;TimerBar user interface&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;use-global-hotkeys&#34;&gt;Use Global Hotkeys&lt;/h2&gt;
+
+&lt;p&gt;TimerBar allows you to set global hotkeys for each action in an easy way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/TimerBar/Prefs.png
+&#34; width=&#34;369&#34; height=&#34;164&#34; alt=&#34;TimerBar Preferences&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>shellmarks</title>
+      <link>/bilalh.github.io/shellmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/shellmarks/</guid>
+      <description>
+
+&lt;p&gt;&lt;code&gt;shellmarks&lt;/code&gt; is a shell script that allows you to save and jump to commonly used directories with tab completion.&lt;/p&gt;
+
+&lt;p&gt;Works well with both &lt;code&gt;bash&lt;/code&gt; and &lt;code&gt;zsh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;git clone git://github.com/Bilalh/shellmarks.git&lt;/li&gt;
+&lt;li&gt;cd &lt;code&gt;shellmarks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;make install (or just source shellmarks.sh  )&lt;/li&gt;
+&lt;li&gt;source &lt;code&gt;~/.local/bin/shellmarks.sh&lt;/code&gt; from within your &lt;code&gt;~.bash_profile&lt;/code&gt; or &lt;code&gt;~/.bashrc&lt;/code&gt; (or &lt;code&gt;.zshrc&lt;/code&gt; for zsh)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;s &amp;lt;bookmark_name&amp;gt;  - Saves the current directory as &amp;quot;bookmark_name&amp;quot;
+g &amp;lt;bookmark_name&amp;gt;  - Goes (cd) to the directory associated with &amp;quot;bookmark_name&amp;quot;
+d &amp;lt;bookmark_name&amp;gt;  - Deletes the bookmark
+l &amp;lt;bookmark_name&amp;gt;  - Lists the specified bookmark associated with &amp;quot;bookmark_name&amp;quot;
+l                  - Lists all available bookmarks
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;addition-features&#34;&gt;Addition Features&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;pd &amp;lt;bookmark_name&amp;gt; - `pushd` to the directory associated with &amp;quot;bookmark_name&amp;quot;
+_p &amp;lt;bookmark_name&amp;gt; - Prints the directory associated with &amp;quot;bookmark_name&amp;quot;
+s                  - Saves the default directory
+g                  - Goes to the default directory
+g -                - Goes to the previous directory
+
+# Mac OS X Only
+o &amp;lt;bookmark_name&amp;gt;  - Open the directory associated with &amp;quot;bookmark_name&amp;quot; in Finder
+y &amp;lt;bookmark_name&amp;gt;  - Open the directory associated with &amp;quot;bookmark_name&amp;quot; in a new tab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd /var/www/
+$ s webfolder
+$ cd /usr/local/bin/
+$ s localbin
+$ l
+    webfolder    /var/www/
+    localbin     /usr/local/bin/
+$ g web&amp;lt;tab&amp;gt;
+$ g webfolder     # cd to /var/www/
+$ o webfolder     # Open in Finder if on a mac
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;bookmarks-storage&#34;&gt;bookmarks storage&lt;/h2&gt;
+
+&lt;p&gt;Stored &lt;code&gt;~/.sdirs&lt;/code&gt; by default.&lt;/p&gt;
+
+&lt;p&gt;Set &lt;code&gt;SDIRS&lt;/code&gt; to use custom location&lt;/p&gt;
+
+&lt;h2 id=&#34;environment-variables&#34;&gt;Environment variables&lt;/h2&gt;
+
+&lt;p&gt;Set &lt;code&gt;SHELLMARKS_ITERM_SESSION&lt;/code&gt; to a session name to change the session that is launched when using &lt;code&gt;y&lt;/code&gt; in iTerm2 on &lt;code&gt;osx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If &lt;code&gt;SHELLMARK_PWD&lt;/code&gt; is set, &lt;code&gt;pwd&lt;/code&gt; is executed after &lt;code&gt;g&lt;/code&gt; and &lt;code&gt;pd&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;based-off&#34;&gt;Based Off&lt;/h2&gt;
+
+&lt;p&gt;Based off &lt;a href=&#34;https://github.com/huyng/bashmarks&#34;&gt;bashmarks&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

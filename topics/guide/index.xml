@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/topics/guide/</link>
+    <description>Recent content in Guide on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Sun, 15 Apr 2012 04:50:10 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/topics/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sync iCloud Calendars on OS X Snow Leaopard</title>
+      <link>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</link>
+      <pubDate>Sun, 15 Apr 2012 04:50:10 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</guid>
+      <description>
+
+&lt;p&gt;Syncing iCloud&amp;rsquo;s Calendars on Snow Leopard is quite simple. The only information that requirement is your &lt;strong&gt;iCloud Server Number&lt;/strong&gt; which nearly always in the form &lt;strong&gt;pXX-caldav.icloud.com&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;To find this number open Safari and &lt;a href=&#34;http://icloud.com/&#34;&gt;login to your iCloud&lt;/a&gt; account.&lt;/p&gt;
+
+&lt;p&gt;Click on Calendar and then chose &lt;strong&gt;Windows —&amp;gt; Activity&lt;/strong&gt; from menu bar.&lt;/p&gt;
+
+&lt;p&gt;In the window you should see something that is similar to this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p01-contactsws.icloud.com/co/mecard/?dsid=1325673149
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;strong&gt;iCloud Server Number&lt;/strong&gt; is the first part of the address namely &lt;strong&gt;p01&lt;/strong&gt; in this case.&lt;/p&gt;
+
+&lt;h2 id=&#34;syncing-ical&#34;&gt;Syncing iCal&lt;/h2&gt;
+
+&lt;p&gt;Open iCal&amp;rsquo;s Preferences, then pick the &lt;strong&gt;Accounts Tab&lt;/strong&gt;. Click the plus sign at the bottom left.&lt;/p&gt;
+
+&lt;p&gt;Fill in the fields with the following settings:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Field&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Account Type:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CalDAV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;User name:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;yourUserName@me.com&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Password:&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;yourPassword&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Server Address&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;pXX-caldav.icloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;pXX is your &lt;strong&gt;iCloud Server Number&lt;/strong&gt; from above.&lt;/p&gt;
+
+&lt;p&gt;Now click create create. If it asks you to pick a server choose &lt;code&gt;pXX-caldav.icloud.com&lt;/code&gt;  from the above settings.&lt;/p&gt;
+
+&lt;p&gt;It should work now!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>fixing corrupt mp3s</title>
+      <link>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</link>
+      <pubDate>Sat, 24 Dec 2011 16:33:17 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</guid>
+      <description>
+
+&lt;p&gt;To fix a corrupt mp3 &lt;a href=&#34;http://mp3val.sourceforge.net/&#34;&gt;mp3val&lt;/a&gt; can be used.  The website provides binaries for Windows, and sources for other platforms including Linux and Mac OS X.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: binaries for Mac OS X (tested on 10.6) &lt;a href=&#34;bilalh.github.io/files/mp3val
+&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To install on a Mac either install it the easy way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install mp3val
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or download the sources and then &lt;code&gt;cd&lt;/code&gt; to the directory of sources and then do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make -f Makefile.gcc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then place the binaries in you &lt;code&gt;$PATH&lt;/code&gt; e.g. &lt;code&gt;/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To fix the corrupt mp3s use the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mp3val -f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which tells &lt;code&gt;mp3val&lt;/code&gt; to fix the errors in the mp3s.  Shell wildcards can be used e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mp3val -f *.mp3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which will fix all mp3 in the current directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mp3val&lt;/code&gt; also keeps all the old tags as well, which is useful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPlayer keybindings</title>
+      <link>/bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
+      <pubDate>Fri, 09 Dec 2011 06:25:32 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
+      <description>&lt;p&gt;A list of MPlayer&amp;rsquo;s keybindings since it hard to find a complete list online.
+If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+&#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; which is the best GUI for MPlayer on the mac.&lt;/p&gt;
+
+&lt;table  &gt;
+    &lt;tbody&gt;&lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Common  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  p / SPACE  &lt;/td&gt;  &lt;td&gt; Pause (pressing again unpauses). &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  q / ESC  &lt;/td&gt;  &lt;td&gt; Stop playing. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  f  &lt;/td&gt;  &lt;td&gt; Toggle fullscreen &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  #  &lt;/td&gt;  &lt;td&gt; Cycle through the available audio tracks. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  T  &lt;/td&gt;  &lt;td&gt; Toggle stay-on-top &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Navigation &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  ← and →  &lt;/td&gt;  &lt;td&gt; Seek backward/forward 10 seconds. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ↓ and ↑   &lt;/td&gt;  &lt;td&gt; Seek backward/forward 1 minute. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  Pagedown and Pageup  &lt;/td&gt;  &lt;td&gt; Seek backward/forward 10 minutes. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ! and @  &lt;/td&gt;  &lt;td&gt; Seek to the beginning of the previous/next chapter. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Volume&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  / and *  &lt;/td&gt;  &lt;td&gt; Decrease/increase volume. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  9 and 0  &lt;/td&gt;  &lt;td&gt; Decrease/increase volume. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  m  &lt;/td&gt;  &lt;td&gt; Mute sound. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Subtitles&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  j  &lt;/td&gt;  &lt;td&gt; Cycle through the available subtitles. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  J  &lt;/td&gt;  &lt;td&gt; Cycle through the available subtitles backwards. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  y and g  &lt;/td&gt;  &lt;td&gt; Step forward/backward in the subtitle list.  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  x and z  &lt;/td&gt;  &lt;td&gt; Adjust subtitle delay by +/- 0.1 seconds. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Playlists&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;    &lt;tr&gt;&lt;td&gt;  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  &amp;lt; and &amp;gt;  &lt;/td&gt;  &lt;td&gt; Go backward/forward in the playlist. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  ENTER  &lt;/td&gt;  &lt;td&gt; Go forward in the playlist. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  HOME and END  &lt;/td&gt;  &lt;td&gt; next/previous playtree entry in the parent list. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34; class=&#39;row-sub-heading&#39;&gt; Information &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  I  &lt;/td&gt;  &lt;td&gt; Show filename on the OSD. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  P  &lt;/td&gt;  &lt;td&gt; Show current time/total time &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  o  &lt;/td&gt;  &lt;td&gt; Toggle OSD states: none / seek / seek + timer / seek + timer + total time. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  ⇥ (Tab)  &lt;/td&gt;  &lt;td&gt; Cycle timestamp display modes &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td colspan=&#34;2&#34;&gt; \1 &lt;/td&gt; &lt;/tr&gt;  
+    &lt;tr&gt;  &lt;td&gt;  + and -  &lt;/td&gt;  &lt;td&gt; Adjust audio delay by +/- 0.1 seconds.  &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  d  &lt;/td&gt;  &lt;td&gt; Toggle frame dropping states: none / skip display / skip decoding. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Playback Speed&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  [ and ]  &lt;/td&gt;  &lt;td&gt; Decrease/increase current playback speed by 10%. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  { and }  &lt;/td&gt;  &lt;td&gt; Halve/double current playback speed. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  backspace  &lt;/td&gt;  &lt;td&gt; Reset playback speed to normal &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt; &lt;td  colspan=&#34;2&#34;&gt; &lt;b&gt;Video Equaliser&lt;/b&gt; &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  1 and 2  &lt;/td&gt;  &lt;td&gt; Adjust contrast. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  3 and 4  &lt;/td&gt;  &lt;td&gt; Adjust brightness. &lt;/td&gt; &lt;/tr&gt;
+
+    &lt;tr&gt;  &lt;td&gt;  5 and 6  &lt;/td&gt;  &lt;td&gt; Adjust hue. &lt;/td&gt; &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;  7 and 8  &lt;/td&gt;  &lt;td&gt; Adjust saturation. &lt;/td&gt; &lt;/tr&gt;
+
+
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Bilal Syed Hussain</title>
+    <link>bilalh.github.io/tags/audio/</link>
+    <description>Recent content in Audio on Bilal Syed Hussain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>bilalshussain@gmail.com (Bilal Syed Hussain)</managingEditor>
+    <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
+    <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
+    <lastBuildDate>Sat, 24 Dec 2011 16:33:17 +0000</lastBuildDate>
+    <atom:link href="bilalh.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>fixing corrupt mp3s</title>
+      <link>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</link>
+      <pubDate>Sat, 24 Dec 2011 16:33:17 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</guid>
+      <description>
+
+&lt;p&gt;To fix a corrupt mp3 &lt;a href=&#34;http://mp3val.sourceforge.net/&#34;&gt;mp3val&lt;/a&gt; can be used.  The website provides binaries for Windows, and sources for other platforms including Linux and Mac OS X.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: binaries for Mac OS X (tested on 10.6) &lt;a href=&#34;bilalh.github.io/files/mp3val
+&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To install on a Mac either install it the easy way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install mp3val
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or download the sources and then &lt;code&gt;cd&lt;/code&gt; to the directory of sources and then do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make -f Makefile.gcc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then place the binaries in you &lt;code&gt;$PATH&lt;/code&gt; e.g. &lt;code&gt;/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To fix the corrupt mp3s use the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mp3val -f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which tells &lt;code&gt;mp3val&lt;/code&gt; to fix the errors in the mp3s.  Shell wildcards can be used e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mp3val -f *.mp3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which will fix all mp3 in the current directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mp3val&lt;/code&gt; also keeps all the old tags as well, which is useful.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
