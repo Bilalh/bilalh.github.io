@@ -163,103 +163,6 @@ Password:
     </item>
     
     <item>
-      <title>ShellTunes</title>
-      <link>https://bilalh.github.io/shelltunes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>https://bilalh.github.io/shelltunes/</guid>
-      <description>
-
-&lt;p&gt;Control iTunes from the command line, over &lt;strong&gt;30&lt;/strong&gt; commands including play/pause, mute/unmute, playlist and play random album. Also includes scripts for getting data from Ttunes.&lt;/p&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;Usage: &lt;code&gt;itunes.sh &amp;lt;option&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Put the scripts in your &lt;code&gt;$PATH&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;See below for bash completion.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;Usage: itunes.sh &amp;lt;option&amp;gt;
-Options: (short)
- (s) status          : Shows iTunes&#39; status, and track info
- (y) play            : Start playing.
- (a) pause           : Pause iTunes.
- (p) playpause       : Start playing / Pauses.
-
- (n) next            : Go to the next track.
- (b) prev            : Go to the previous track.
- (r) rewind          : Rewinds the current track.
-
- (m)                 : Toggles Mute iTunes&#39; volume.
-     mute            : Mute iTunes&#39; volume.
-     unmute          : Unmute iTunes&#39; volume.
- (v) vol up          : Increase iTunes&#39; volume by 10%
- (v) vol down        : Increase iTunes&#39; volume by 10%
- (v) vol #           : Set iTunes&#39; volume to # [0-100]
-
- (@) search        {string} : Search for songs in each field (results playlist must exist)
- (@) search [type] {string} : Search for songs by type
-                            : Types are album, artist, composer
-                            : comment, genre, grouping, name and year
- ($)               {string} : Searching for songs using name, album and comment as fields
-
- (l) playlist        : List all the playlists
- (l) playlist {name} : Plays the specified playlist
- (c) current         : List the songs of the current playlist
-
- (d) random          : Plays a random album
- (f) shuffle         : Toggles shuffle
- (f) shuffle on      : Turns shuffle on
- (f) shuffle off     : Turns shuffle off
-
- (e) repeat all      : Set repeat to all
- (e) repeat one      : Set repeat to on
- (e) repeat off      : Set repeat to off
-
-
- [0-5]              : Set the current song rating
- (6) 4.5            : Set the current song rating to 4½ stars
-
- (t) stop           : Stop iTunes.
- (q) quit           : Quit iTunes.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;bash-completion&#34;&gt;Bash Completion&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add this to your &lt;code&gt;.bash_profile&lt;/code&gt; or &lt;code&gt;.bashrc&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function i(){
-	itunes.sh &amp;quot;$@&amp;quot;
-}
-
-function _ilist(){
-	itunes.sh commands
-}
-
-function _icomp(){
-	local curw
-	COMPREPLY=()
-	curw=${COMP_WORDS[COMP_CWORD]}
-	COMPREPLY=($(compgen -W &#39;`_ilist`&#39; -- $curw))
-	return 0
-}
-
-#  Completion for itunes.sh
-shopt -s progcomp
-complete -F _icomp i
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>TimerBar</title>
       <link>https://bilalh.github.io/timerbar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -361,6 +264,103 @@ $ o webfolder     # Open in Finder if on a mac
 &lt;h2 id=&#34;based-off&#34;&gt;Based Off&lt;/h2&gt;
 
 &lt;p&gt;Based off &lt;a href=&#34;https://github.com/huyng/bashmarks&#34;&gt;bashmarks&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>shelltunes</title>
+      <link>https://bilalh.github.io/shelltunes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
+      <guid>https://bilalh.github.io/shelltunes/</guid>
+      <description>
+
+&lt;p&gt;Control iTunes from the command line, over &lt;strong&gt;30&lt;/strong&gt; commands including play/pause, mute/unmute, playlist and play random album. Also includes scripts for getting data from Ttunes.&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Usage: &lt;code&gt;itunes.sh &amp;lt;option&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Put the scripts in your &lt;code&gt;$PATH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;See below for bash completion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Usage: itunes.sh &amp;lt;option&amp;gt;
+Options: (short)
+ (s) status          : Shows iTunes&#39; status, and track info
+ (y) play            : Start playing.
+ (a) pause           : Pause iTunes.
+ (p) playpause       : Start playing / Pauses.
+
+ (n) next            : Go to the next track.
+ (b) prev            : Go to the previous track.
+ (r) rewind          : Rewinds the current track.
+
+ (m)                 : Toggles Mute iTunes&#39; volume.
+     mute            : Mute iTunes&#39; volume.
+     unmute          : Unmute iTunes&#39; volume.
+ (v) vol up          : Increase iTunes&#39; volume by 10%
+ (v) vol down        : Increase iTunes&#39; volume by 10%
+ (v) vol #           : Set iTunes&#39; volume to # [0-100]
+
+ (@) search        {string} : Search for songs in each field (results playlist must exist)
+ (@) search [type] {string} : Search for songs by type
+                            : Types are album, artist, composer
+                            : comment, genre, grouping, name and year
+ ($)               {string} : Searching for songs using name, album and comment as fields
+
+ (l) playlist        : List all the playlists
+ (l) playlist {name} : Plays the specified playlist
+ (c) current         : List the songs of the current playlist
+
+ (d) random          : Plays a random album
+ (f) shuffle         : Toggles shuffle
+ (f) shuffle on      : Turns shuffle on
+ (f) shuffle off     : Turns shuffle off
+
+ (e) repeat all      : Set repeat to all
+ (e) repeat one      : Set repeat to on
+ (e) repeat off      : Set repeat to off
+
+
+ [0-5]              : Set the current song rating
+ (6) 4.5            : Set the current song rating to 4½ stars
+
+ (t) stop           : Stop iTunes.
+ (q) quit           : Quit iTunes.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;bash-completion&#34;&gt;Bash Completion&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add this to your &lt;code&gt;.bash_profile&lt;/code&gt; or &lt;code&gt;.bashrc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function i(){
+	itunes.sh &amp;quot;$@&amp;quot;
+}
+
+function _ilist(){
+	itunes.sh commands
+}
+
+function _icomp(){
+	local curw
+	COMPREPLY=()
+	curw=${COMP_WORDS[COMP_CWORD]}
+	COMPREPLY=($(compgen -W &#39;`_ilist`&#39; -- $curw))
+	return 0
+}
+
+#  Completion for itunes.sh
+shopt -s progcomp
+complete -F _icomp i
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
