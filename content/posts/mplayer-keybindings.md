@@ -1,7 +1,7 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-12-09T06:25:32Z
-modified: 2015-10-31T15-54-56Z
+modified: 2015-10-31T15:54:56Z
 description: A list of MPlayer's keybindings since it hard to find a complete list online
 draft: false
 tags:

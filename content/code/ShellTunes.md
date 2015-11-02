@@ -1,5 +1,6 @@
 ---
 author: Bilal Syed Hussain
+modified: 2015-11-02T00:00:00Z
 description: Control iTunes from the command line.
 info: Control iTunes from the command line; over 30 commands including play/pause, mute/unmute, playlist and play random album.
 draft: false

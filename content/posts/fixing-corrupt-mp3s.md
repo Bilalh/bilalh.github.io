@@ -1,7 +1,7 @@
 ---
 author: Bilal Syed Hussain
 date: 2011-12-24T16:33:17Z
-modified: 2015-10-31T15-21-28Z
+modified: 2015-10-31T15:21:28Z
 description: How to fix corrupt mp3 using mp3val on Mac or Linux
 draft: false
 tags:

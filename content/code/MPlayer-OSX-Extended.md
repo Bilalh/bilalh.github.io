@@ -1,5 +1,6 @@
 ---
 author: Bilal Syed Hussain
+modified: 2015-11-02T00:00:00Z
 description: Contributions to MPlayer OSX Extended
 info: MPlayer OSX Extended is a video player leveraging the power of the MPlayer and FFmpeg. I have contributed icons and some features to the project and up to data binaries.
 draft: false

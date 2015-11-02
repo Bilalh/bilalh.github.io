@@ -38,7 +38,7 @@ A menu item (Play Next Episode) that plays the next episode based on the current
 
 This build added an extra option to play the next episode automatically, saving the user  from clicking on the `Play Next Episode` menu item each time.
 
-![Next Menu]({{< path "media/posts/mplayerosx/next_menu.png" >}})
+![Next Menu]({{< path "media/posts/MPlayer-OSX-Extended/next_menu.png" >}})
 
 Compatibility
 -------------

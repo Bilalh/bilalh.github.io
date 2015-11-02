@@ -6,6 +6,7 @@ badges_:
     img: https://api.travis-ci.org/Bilalh/gmusic-sync-rating.svg
     url: https://travis-ci.org/Bilalh/gmusic-sync-rating
 date: 2015-11-01T06:01:32Z
+modified: 2015-11-02T00:00:00Z
 description: gmusic-sync-rating is a command line tool to sync iTunes rating to google music. It supports the 5 star rating scale.
 info: A command line tool to sync iTunes rating to google music. It supports the 5 star rating scale.
 draft: false

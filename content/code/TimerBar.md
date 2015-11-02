@@ -1,5 +1,6 @@
 ---
 author: Bilal Syed Hussain
+modified: 2015-11-02T00:00:00Z
 description: A timer in your menubar.
 info: A timer in your menubar. Also allows you to set a global hotkey to start/pause and stop the timer.
 draft: false

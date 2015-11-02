@@ -1,5 +1,6 @@
 ---
 author: Bilal Syed Hussain
+modified: 2015-11-02T00:00:00Z
 description: A shell script that allows you to save and jump to commonly used directories with supports for tab completion.
 info: A script that allows you to save and jump to commonly used directories with supports for tab completion. that supports open the bookmark in Finder and perform and command after using a bookmark e.g. g bookmarkname ls changes the directory to the bookmark then preforms ls.
 draft: false
