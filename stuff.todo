@@ -1,13 +1,13 @@
 posts:
-    ☐ write one new post
+    ✔ write one new post @done(2015-11-02 00:06) @project(posts)
     ✔ finish old posts @done(2015-11-01 05:03) @project(posts)
     ☐ missing posts
 
 code:
     ✔ Tagger imported @done(2015-11-01 00:35) @project(code)
-    ☐ other projects
+    ✔ other projects @done(2015-11-02 00:06) @project(code)
     ☐ cputimeout
-    ☐ languages notes
+    ✔ languages notes @done(2015-11-02 00:06) @project(code)
 
 release:
     ☐ posts redirects
@@ -16,4 +16,5 @@ release:
     ✔ topic redirects @done(2015-11-01 05:03) @project(release)
     ✔ archive redirects @done(2015-11-01 05:03) @project(release)
     ☐ test in browsers
-    ☐ test media icon work get pick up by google
+    ☐ test media icon work get picked up by google
+

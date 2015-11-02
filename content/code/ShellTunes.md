@@ -9,6 +9,8 @@ type: code
 num: 20
 languages:
     - Shell
+aliases:
+    - /projects/shell-tunes
 ---
 
 Control iTunes from the command line, over **30** commands including play/pause, mute/unmute, playlist and play random album. Also includes scripts for getting data from Ttunes.
