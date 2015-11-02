@@ -17,9 +17,11 @@
   <h2> Latest <a href="{{ "/posts" | absURL }}"> code </a></h2>
 
   <ul id="all-posts">
-    {{ $pagesIn := ( first 5 (where .Data.Pages "Type" "code")) }}
+    {{ $pagesIn := ( first 4 (  sort (where .Data.Pages "Type" "code") "Params.num" )) }}
     {{ range $index, $pagesIn }}
-      {{ .Render "posts-li" }}
+    <li>
+      <a href="{{ .Permalink }}">{{ partial "modules/page/title" . }}</a>
+    </li>
     {{ end }}
   </ul>
 

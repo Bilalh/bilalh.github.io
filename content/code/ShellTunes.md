@@ -5,7 +5,7 @@ description: Control iTunes from the command line.
 info: Control iTunes from the command line; over 30 commands including play/pause, mute/unmute, playlist and play random album.
 draft: false
 github: Bilalh/Shell-Tunes
-title: ShellTunes
+title: shelltunes
 type: code
 num: 20
 languages:

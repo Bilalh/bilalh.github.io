@@ -26,6 +26,13 @@ ul#all-posts > li > .meta {
     width: 27.5%;
 }
 
+ul#all-posts > li > .desc {
+    display: table-cell;
+    text-align: right;
+    width: 60%;
+}
+
+
 ul#all-posts > li > a {
     display: table-cell;
     padding: 0 .5em;
