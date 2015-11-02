@@ -17,3 +17,4 @@ release:
     ✔ archive redirects @done(2015-11-01 05:03) @project(release)
     ✔ test in browsers @done(2015-11-02 02:00) @project(release)
     ☐ test media icon work get picked up by google
+    ☐ Setup on github
