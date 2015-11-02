@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Textmate on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/tags/textmate/</link>
+    <link>https://bilalh.github.io/tags/textmate/</link>
     <description>Recent content in Textmate on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,36 +10,36 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Sat, 22 Oct 2011 23:20:14 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/tags/textmate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/tags/textmate/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blueboard TextMate Theme</title>
-      <link>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
+      <link>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
       <pubDate>Sat, 22 Oct 2011 23:20:14 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
+      <guid>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
       <description>
 
 &lt;p&gt;My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:&lt;/p&gt;
 
 &lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/ruby.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/ruby.png
 &#34; alt=&#34;Ruby&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;tex&#34;&gt;TeX&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/tex.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/tex.png
 &#34; alt=&#34;Tex&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/markdown.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/markdown.png
 &#34; alt=&#34;Markdown&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/css.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/css.png
 &#34; alt=&#34;css&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme&#34; download=&#34;Blueboard.tmTheme&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;

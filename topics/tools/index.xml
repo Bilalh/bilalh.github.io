@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/topics/tools/</link>
+    <link>https://bilalh.github.io/topics/tools/</link>
     <description>Recent content in Tools on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,36 +10,36 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Sat, 22 Oct 2011 23:20:14 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/topics/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/topics/tools/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blueboard TextMate Theme</title>
-      <link>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
+      <link>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
       <pubDate>Sat, 22 Oct 2011 23:20:14 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
+      <guid>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
       <description>
 
 &lt;p&gt;My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:&lt;/p&gt;
 
 &lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/ruby.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/ruby.png
 &#34; alt=&#34;Ruby&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;tex&#34;&gt;TeX&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/tex.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/tex.png
 &#34; alt=&#34;Tex&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/markdown.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/markdown.png
 &#34; alt=&#34;Markdown&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/css.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/css.png
 &#34; alt=&#34;css&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme&#34; download=&#34;Blueboard.tmTheme&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>ls colours</title>
-      <link>/bilalh.github.io/2011/09/10/ls-colours/</link>
+      <link>https://bilalh.github.io/2011/09/10/ls-colours/</link>
       <pubDate>Sat, 10 Sep 2011 00:12:45 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/10/ls-colours/</guid>
+      <guid>https://bilalh.github.io/2011/09/10/ls-colours/</guid>
       <description>&lt;p&gt;To get &lt;code&gt;ls&lt;/code&gt; colours  on a mac add the follow to your &lt;code&gt;.bash_profile&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#light colours
@@ -67,10 +67,10 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     
     <item>
       <title>Git Delete Last Commit</title>
-      <link>/bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
+      <link>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
       <pubDate>Fri, 09 Sep 2011 20:36:06 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
+      <guid>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
       <description>&lt;p&gt;If you have committed files that you shouldn&amp;rsquo;t have (e.g. passwords) you can use the following to delete the last commit provided the commit has not been pushed.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git reset --hard HEAD~1
@@ -95,10 +95,10 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     
     <item>
       <title>Mac Keyboard Symbols</title>
-      <link>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
+      <link>https://bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
       <pubDate>Thu, 08 Sep 2011 00:22:57 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
+      <guid>https://bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
       <description>&lt;p&gt;Below is a list of special symbols on a mac keyboard with their name and Unicode equivalents.  This could be useful for README for example&lt;/p&gt;
 
 &lt;table cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;

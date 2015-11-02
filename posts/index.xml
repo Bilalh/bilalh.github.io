@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/posts/</link>
+    <link>https://bilalh.github.io/posts/</link>
     <description>Recent content in Posts on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,14 +10,14 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Sat, 31 Oct 2015 16:46:31 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Viewing .csv files on the command line</title>
-      <link>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</link>
+      <link>https://bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</link>
       <pubDate>Sat, 31 Oct 2015 16:46:31 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</guid>
+      <guid>https://bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</guid>
       <description>&lt;p&gt;It can be convenient to view a &lt;code&gt;.csv&lt;/code&gt; file from the command line, when using SSH connection for example.  A basic version with no dependencies is as follows:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function see_csv(){
@@ -67,10 +67,10 @@
     
     <item>
       <title>Alfred Extensions</title>
-      <link>/bilalh.github.io/2013/03/29/alfred-extensions/</link>
+      <link>https://bilalh.github.io/2013/03/29/alfred-extensions/</link>
       <pubDate>Fri, 29 Mar 2013 00:15:21 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2013/03/29/alfred-extensions/</guid>
+      <guid>https://bilalh.github.io/2013/03/29/alfred-extensions/</guid>
       <description>
 
 &lt;p&gt;Workflows and Extensions for &lt;a href=&#34;www.alfredapp.com&#34;&gt;Alfred&lt;/a&gt; hosted on &lt;a href=&#34;https://github.com/Bilalh/AlfredExtensions&#34;&gt;https://github.com/Bilalh/AlfredExtensions&lt;/a&gt;&lt;/p&gt;
@@ -79,7 +79,7 @@
 
 &lt;p&gt;Allows you to set the rating of the currently playing song. Support halves stars and empty ratings&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/alfred_itunes.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/alfred_itunes.png
 &#34; alt=&#34;Alfred iTunes&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;based off &lt;a href=&#34;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&#34;&gt;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&lt;/a&gt;&lt;/p&gt;
@@ -90,16 +90,16 @@
 
 &lt;h2 id=&#34;shellmarks&#34;&gt;Shellmarks&lt;/h2&gt;
 
-&lt;p&gt;Allow the use of &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/&#34;&gt;Shellmarks&lt;/a&gt;,  a shell script that allows you to save and jump to commonly used directories from Alfred.&lt;/p&gt;
+&lt;p&gt;Allow the use of &lt;a href=&#34;https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/&#34;&gt;Shellmarks&lt;/a&gt;,  a shell script that allows you to save and jump to commonly used directories from Alfred.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Tagger 1.6.2</title>
-      <link>/bilalh.github.io/2012/09/22/tagger-1.6.2/</link>
+      <link>https://bilalh.github.io/2012/09/22/tagger-1.6.2/</link>
       <pubDate>Sat, 22 Sep 2012 16:07:03 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/09/22/tagger-1.6.2/</guid>
+      <guid>https://bilalh.github.io/2012/09/22/tagger-1.6.2/</guid>
       <description>&lt;p&gt;Tagger 1.6.2 has been released.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -113,10 +113,10 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/Tagger/Tagger_1.6.2.zip&#34; title=&#34;Tagger 1.6 Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;bilalh.github.io/projects/tagger/changelog.html
+&lt;p&gt;&lt;a href=&#34;https://bilalh.github.io/projects/tagger/changelog.html
 &#34; title=&#34;Tagger Changelog&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;bilalh.github.io/projects/tagger/
+&lt;p&gt;&lt;a href=&#34;https://bilalh.github.io/projects/tagger/
 &#34; title=&#34;Tagger Project Page&#34;&gt;Project Page&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Bilalh/tagger&#34; title=&#34;Tagger github Repository&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
@@ -125,13 +125,13 @@
     
     <item>
       <title>MPlayer OSX Extended Release 2</title>
-      <link>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</link>
+      <link>https://bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</link>
       <pubDate>Fri, 18 May 2012 13:48:44 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</guid>
+      <guid>https://bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</guid>
       <description>
 
-&lt;p&gt;This is build contains all the features in the &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/&#34;&gt;previous build&lt;/a&gt; with a few new additions.&lt;/p&gt;
+&lt;p&gt;This is build contains all the features in the &lt;a href=&#34;https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/&#34;&gt;previous build&lt;/a&gt; with a few new additions.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended%20rev15-test1-build%202.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
 
@@ -143,7 +143,7 @@
 
 &lt;p&gt;I Added a Proxy Icon when a file is playing, which  is invoke by clicking on the icon in the menu bar, this brings up the menu shown below which allows the user to open the folder the movie is placed in.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/proxy_icon.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/MPlayer-OSX-Extended/proxy_icon.png
 &#34; alt=&#34;Proxy Icon&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;next-episode&#34;&gt;Next Episode&lt;/h3&gt;
@@ -157,7 +157,7 @@ File Name Episode 1
 
 &lt;p&gt;This build added an extra option to play the next episode automatically, saving the user  from clicking on the &lt;code&gt;Play Next Episode&lt;/code&gt; menu item each time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/next_menu.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/MPlayer-OSX-Extended/next_menu.png
 &#34; alt=&#34;Next Menu&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h2&gt;
@@ -172,10 +172,10 @@ File Name Episode 1
     
     <item>
       <title>Pipe output from command line tools to a text editor</title>
-      <link>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</link>
+      <link>https://bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</link>
       <pubDate>Sun, 22 Apr 2012 22:01:23 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</guid>
+      <guid>https://bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</guid>
       <description>&lt;p&gt;A useful feature is to pipe the result of a command such as &lt;code&gt;ls&lt;/code&gt; to a text editor. This can be done by using:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;	ls | open -f
@@ -190,10 +190,10 @@ File Name Episode 1
     
     <item>
       <title>Sync iCloud Calendars on OS X Snow Leaopard</title>
-      <link>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</link>
+      <link>https://bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</link>
       <pubDate>Sun, 15 Apr 2012 04:50:10 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</guid>
+      <guid>https://bilalh.github.io/2012/04/15/sync-icloud-calendars-on-os-x-snow-leaopard/</guid>
       <description>
 
 &lt;p&gt;Syncing iCloud&amp;rsquo;s Calendars on Snow Leopard is quite simple. The only information that requirement is your &lt;strong&gt;iCloud Server Number&lt;/strong&gt; which nearly always in the form &lt;strong&gt;pXX-caldav.icloud.com&lt;/strong&gt;.&lt;/p&gt;
@@ -256,13 +256,13 @@ File Name Episode 1
     
     <item>
       <title>Shellmarks - terminal directory bookmarks</title>
-      <link>/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</link>
+      <link>https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</link>
       <pubDate>Sat, 14 Jan 2012 00:57:33 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</guid>
+      <guid>https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;bilalh.github.io/shellmarks
+&lt;p&gt;&lt;a href=&#34;https://bilalh.github.io/shellmarks
 &#34; title=&#34;shellmarks project page&#34;&gt;shellmarks&lt;/a&gt; is a shell script that allows you to save and jump to commonly used directories.&lt;/p&gt;
 
 &lt;h2 id=&#34;usage-example&#34;&gt;Usage Example&lt;/h2&gt;
@@ -338,24 +338,24 @@ o              # opens ~/home/projects/www/javascript in Finder
 
 &lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
 
-&lt;p&gt;See the &lt;a href=&#34;bilalh.github.io/shellmarks
+&lt;p&gt;See the &lt;a href=&#34;https://bilalh.github.io/shellmarks
 &#34; title=&#34;shellmarks project page&#34;&gt;project page&lt;/a&gt;  for information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>fixing corrupt mp3s</title>
-      <link>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</link>
+      <link>https://bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</link>
       <pubDate>Sat, 24 Dec 2011 16:33:17 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</guid>
+      <guid>https://bilalh.github.io/2011/12/24/fixing-corrupt-mp3s/</guid>
       <description>
 
 &lt;p&gt;To fix a corrupt mp3 &lt;a href=&#34;http://mp3val.sourceforge.net/&#34;&gt;mp3val&lt;/a&gt; can be used.  The website provides binaries for Windows, and sources for other platforms including Linux and Mac OS X.&lt;/p&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: binaries for Mac OS X (tested on 10.6) &lt;a href=&#34;bilalh.github.io/files/mp3val
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: binaries for Mac OS X (tested on 10.6) &lt;a href=&#34;https://bilalh.github.io/files/mp3val
 &#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To install on a Mac either install it the easy way:&lt;/p&gt;
@@ -390,13 +390,13 @@ o              # opens ~/home/projects/www/javascript in Finder
     
     <item>
       <title>MPlayer OSX Extended Release 1</title>
-      <link>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</link>
+      <link>https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</link>
       <pubDate>Tue, 20 Dec 2011 17:37:31 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</guid>
+      <guid>https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</guid>
       <description>
 
-&lt;p&gt;A new binary of &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+&lt;p&gt;A new binary of &lt;a href=&#34;https://bilalh.github.io/mplayer-osx-extended/
 &#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; has been released&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
@@ -408,7 +408,7 @@ o              # opens ~/home/projects/www/javascript in Finder
 &lt;h3 id=&#34;file-types-information&#34;&gt;File Types Information&lt;/h3&gt;
 
 &lt;p&gt;I added type information about movies as shown below. This gives the user more info when looking at video/audio  files in Finder.
-&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
+&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
 &#34; alt=&#34;Filetypes&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;media-keys&#34;&gt;Media Keys&lt;/h3&gt;
@@ -443,7 +443,7 @@ o              # opens ~/home/projects/www/javascript in Finder
 
 &lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
 
-&lt;p&gt;All of MPlayer keyboard shortcuts have been added, a list of keyboard shortcuts is in the help and can be viewed &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/09/mplayer-keybindings/&#34; title=&#34;Complete List of keyboard shortcuts&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All of MPlayer keyboard shortcuts have been added, a list of keyboard shortcuts is in the help and can be viewed &lt;a href=&#34;https://bilalh.github.io/2011/12/09/mplayer-keybindings/&#34; title=&#34;Complete List of keyboard shortcuts&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;help&#34;&gt;Help&lt;/h3&gt;
 
@@ -465,34 +465,34 @@ o              # opens ~/home/projects/www/javascript in Finder
 
 &lt;h3 id=&#34;video-icons&#34;&gt;Video Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
 &#34; alt=&#34;Video Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;audio-icons&#34;&gt;Audio Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
 &#34; alt=&#34;Audio Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;subtitles-icons&#34;&gt;Subtitles Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
 &#34; alt=&#34;Subtitles Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;binary-icon&#34;&gt;Binary Icon&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
 &#34; alt=&#34;Binary Icon&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MPlayer keybindings</title>
-      <link>/bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
+      <link>https://bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
       <pubDate>Fri, 09 Dec 2011 06:25:32 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
+      <guid>https://bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
       <description>&lt;p&gt;A list of MPlayer&amp;rsquo;s keybindings since it hard to find a complete list online.
-If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+If using a Mac consider using &lt;a href=&#34;https://bilalh.github.io/mplayer-osx-extended/
 &#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; which is the best GUI for MPlayer on the mac.&lt;/p&gt;
 
 &lt;table  &gt;
@@ -570,32 +570,32 @@ If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-exten
     
     <item>
       <title>Blueboard TextMate Theme</title>
-      <link>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
+      <link>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</link>
       <pubDate>Sat, 22 Oct 2011 23:20:14 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
+      <guid>https://bilalh.github.io/2011/10/22/blueboard-textmate-theme/</guid>
       <description>
 
 &lt;p&gt;My theme for TextMate, works well for Ruby, CSS, Markdown, C, Bash and TeX:&lt;/p&gt;
 
 &lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/ruby.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/ruby.png
 &#34; alt=&#34;Ruby&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;tex&#34;&gt;TeX&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/tex.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/tex.png
 &#34; alt=&#34;Tex&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/markdown.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/markdown.png
 &#34; alt=&#34;Markdown&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/textmate/css.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/textmate/css.png
 &#34; alt=&#34;css&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://raw.github.com/Bilalh/TextMateThemes/master/Blueboard.tmTheme&#34; download=&#34;Blueboard.tmTheme&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
@@ -606,10 +606,10 @@ If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-exten
     
     <item>
       <title>Useful sed commands</title>
-      <link>/bilalh.github.io/2011/10/09/useful-sed-commands/</link>
+      <link>https://bilalh.github.io/2011/10/09/useful-sed-commands/</link>
       <pubDate>Sun, 09 Oct 2011 17:20:59 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/10/09/useful-sed-commands/</guid>
+      <guid>https://bilalh.github.io/2011/10/09/useful-sed-commands/</guid>
       <description>
 
 &lt;h3 id=&#34;delete-nth-line-inplace&#34;&gt;Delete nth line inplace&lt;/h3&gt;
@@ -636,10 +636,10 @@ If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-exten
     
     <item>
       <title>ls colours</title>
-      <link>/bilalh.github.io/2011/09/10/ls-colours/</link>
+      <link>https://bilalh.github.io/2011/09/10/ls-colours/</link>
       <pubDate>Sat, 10 Sep 2011 00:12:45 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/10/ls-colours/</guid>
+      <guid>https://bilalh.github.io/2011/09/10/ls-colours/</guid>
       <description>&lt;p&gt;To get &lt;code&gt;ls&lt;/code&gt; colours  on a mac add the follow to your &lt;code&gt;.bash_profile&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#light colours
@@ -653,10 +653,10 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     
     <item>
       <title>Git Delete Last Commit</title>
-      <link>/bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
+      <link>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
       <pubDate>Fri, 09 Sep 2011 20:36:06 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
+      <guid>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
       <description>&lt;p&gt;If you have committed files that you shouldn&amp;rsquo;t have (e.g. passwords) you can use the following to delete the last commit provided the commit has not been pushed.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git reset --hard HEAD~1
@@ -681,10 +681,10 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     
     <item>
       <title>Mac Keyboard Symbols</title>
-      <link>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
+      <link>https://bilalh.github.io/2011/09/08/mac-keyboard-symbols/</link>
       <pubDate>Thu, 08 Sep 2011 00:22:57 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
+      <guid>https://bilalh.github.io/2011/09/08/mac-keyboard-symbols/</guid>
       <description>&lt;p&gt;Below is a list of special symbols on a mac keyboard with their name and Unicode equivalents.  This could be useful for README for example&lt;/p&gt;
 
 &lt;table cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;

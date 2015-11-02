@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/tags/git/</link>
+    <link>https://bilalh.github.io/tags/git/</link>
     <description>Recent content in Git on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,14 +10,14 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Fri, 09 Sep 2011 20:36:06 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git Delete Last Commit</title>
-      <link>/bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
+      <link>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</link>
       <pubDate>Fri, 09 Sep 2011 20:36:06 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
+      <guid>https://bilalh.github.io/2011/09/09/git-delete-last-commit/</guid>
       <description>&lt;p&gt;If you have committed files that you shouldn&amp;rsquo;t have (e.g. passwords) you can use the following to delete the last commit provided the commit has not been pushed.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git reset --hard HEAD~1

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/code/</link>
+    <link>https://bilalh.github.io/code/</link>
     <description>Recent content in Code on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,14 +10,14 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Sun, 01 Nov 2015 06:11:55 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CSPLib</title>
-      <link>/bilalh.github.io/csplib/</link>
+      <link>https://bilalh.github.io/csplib/</link>
       <pubDate>Sun, 01 Nov 2015 06:11:55 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/csplib/</guid>
+      <guid>https://bilalh.github.io/csplib/</guid>
       <description>&lt;p&gt;I maintain the website of CSPLib, a library of test problems for constraint solvers. The site is generated (using Python) from markdown specifications in addition to associated metadata and data files.  I also wrote most of the scripts that perform the generation.&lt;/p&gt;
 
 &lt;p&gt;The website is located at &lt;a href=&#34;http://csplib.org&#34;&gt;http://csplib.org&lt;/a&gt;&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>gmusic-sync-rating</title>
-      <link>/bilalh.github.io/gmusic-sync-rating/</link>
+      <link>https://bilalh.github.io/gmusic-sync-rating/</link>
       <pubDate>Sun, 01 Nov 2015 06:01:32 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/gmusic-sync-rating/</guid>
+      <guid>https://bilalh.github.io/gmusic-sync-rating/</guid>
       <description>
 
 &lt;p&gt;&lt;code&gt;gmusic-sync-rating&lt;/code&gt; is a command line tool to sync iTunes rating to google music. It supports the 5 star rating scale.&lt;/p&gt;
@@ -84,10 +84,10 @@ Password:
     
     <item>
       <title>MPlayer OSX Extended</title>
-      <link>/bilalh.github.io/mplayer-osx-extended/</link>
+      <link>https://bilalh.github.io/mplayer-osx-extended/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/mplayer-osx-extended/</guid>
+      <guid>https://bilalh.github.io/mplayer-osx-extended/</guid>
       <description>
 
 &lt;p&gt;This page contains some of my contributions to the MPlayer OSX Extended project&lt;/p&gt;
@@ -95,7 +95,7 @@ Password:
 &lt;h2 id=&#34;file-types-information&#34;&gt;File Types Information&lt;/h2&gt;
 
 &lt;p&gt;I added type information about movies as shown below. This gives the user more info when looking at video/audio files in Finder.
-&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
+&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
 &#34; alt=&#34;Filetypes&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;media-keys&#34;&gt;Media Keys&lt;/h3&gt;
@@ -142,32 +142,32 @@ Password:
 
 &lt;h3 id=&#34;video-icons&#34;&gt;Video Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
 &#34; alt=&#34;Video Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;audio-icons&#34;&gt;Audio Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
 &#34; alt=&#34;Audio Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;subtitles-icons&#34;&gt;Subtitles Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
 &#34; alt=&#34;Subtitles Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;binary-icon&#34;&gt;Binary Icon&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
 &#34; alt=&#34;Binary Icon&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ShellTunes</title>
-      <link>/bilalh.github.io/shelltunes/</link>
+      <link>https://bilalh.github.io/shelltunes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/shelltunes/</guid>
+      <guid>https://bilalh.github.io/shelltunes/</guid>
       <description>
 
 &lt;p&gt;Control iTunes from the command line, over &lt;strong&gt;30&lt;/strong&gt; commands including play/pause, mute/unmute, playlist and play random album. Also includes scripts for getting data from Ttunes.&lt;/p&gt;
@@ -261,10 +261,10 @@ complete -F _icomp i
     
     <item>
       <title>TimerBar</title>
-      <link>/bilalh.github.io/timerbar/</link>
+      <link>https://bilalh.github.io/timerbar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/timerbar/</guid>
+      <guid>https://bilalh.github.io/timerbar/</guid>
       <description>
 
 &lt;p&gt;A timer in your menubar.&lt;/p&gt;
@@ -277,24 +277,24 @@ complete -F _icomp i
 
 &lt;p&gt;Use TimerBar to time tasks such as a talk.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/TimerBar/TimerBar.jpg
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/TimerBar/TimerBar.jpg
 &#34; width=&#34;221&#34; height=&#34;184&#34; alt=&#34;TimerBar user interface&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;use-global-hotkeys&#34;&gt;Use Global Hotkeys&lt;/h2&gt;
 
 &lt;p&gt;TimerBar allows you to set global hotkeys for each action in an easy way.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/TimerBar/Prefs.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/TimerBar/Prefs.png
 &#34; width=&#34;369&#34; height=&#34;164&#34; alt=&#34;TimerBar Preferences&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>shellmarks</title>
-      <link>/bilalh.github.io/shellmarks/</link>
+      <link>https://bilalh.github.io/shellmarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/shellmarks/</guid>
+      <guid>https://bilalh.github.io/shellmarks/</guid>
       <description>
 
 &lt;p&gt;&lt;code&gt;shellmarks&lt;/code&gt; is a shell script that allows you to save and jump to commonly used directories with tab completion.&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mplayer on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/tags/mplayer/</link>
+    <link>https://bilalh.github.io/tags/mplayer/</link>
     <description>Recent content in Mplayer on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,17 +10,17 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Fri, 18 May 2012 13:48:44 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/tags/mplayer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MPlayer OSX Extended Release 2</title>
-      <link>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</link>
+      <link>https://bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</link>
       <pubDate>Fri, 18 May 2012 13:48:44 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</guid>
+      <guid>https://bilalh.github.io/2012/05/18/mplayer-osx-extended-release-2/</guid>
       <description>
 
-&lt;p&gt;This is build contains all the features in the &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/&#34;&gt;previous build&lt;/a&gt; with a few new additions.&lt;/p&gt;
+&lt;p&gt;This is build contains all the features in the &lt;a href=&#34;https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/&#34;&gt;previous build&lt;/a&gt; with a few new additions.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended%20rev15-test1-build%202.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;p&gt;I Added a Proxy Icon when a file is playing, which  is invoke by clicking on the icon in the menu bar, this brings up the menu shown below which allows the user to open the folder the movie is placed in.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/proxy_icon.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/MPlayer-OSX-Extended/proxy_icon.png
 &#34; alt=&#34;Proxy Icon&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;next-episode&#34;&gt;Next Episode&lt;/h3&gt;
@@ -46,7 +46,7 @@ File Name Episode 1
 
 &lt;p&gt;This build added an extra option to play the next episode automatically, saving the user  from clicking on the &lt;code&gt;Play Next Episode&lt;/code&gt; menu item each time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/MPlayer-OSX-Extended/next_menu.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/MPlayer-OSX-Extended/next_menu.png
 &#34; alt=&#34;Next Menu&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h2&gt;
@@ -61,13 +61,13 @@ File Name Episode 1
     
     <item>
       <title>MPlayer OSX Extended Release 1</title>
-      <link>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</link>
+      <link>https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</link>
       <pubDate>Tue, 20 Dec 2011 17:37:31 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</guid>
+      <guid>https://bilalh.github.io/2011/12/20/mplayer-osx-extended-release-1/</guid>
       <description>
 
-&lt;p&gt;A new binary of &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+&lt;p&gt;A new binary of &lt;a href=&#34;https://bilalh.github.io/mplayer-osx-extended/
 &#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; has been released&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/downloads/Bilalh/MPlayer-OSX-Extended/MPlayer%20OSX%20Extended.zip&#34; title=&#34;MPlayer OSX Extended Binary&#34;&gt;Download Link&lt;/a&gt;&lt;/p&gt;
@@ -79,7 +79,7 @@ File Name Episode 1
 &lt;h3 id=&#34;file-types-information&#34;&gt;File Types Information&lt;/h3&gt;
 
 &lt;p&gt;I added type information about movies as shown below. This gives the user more info when looking at video/audio  files in Finder.
-&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
+&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Filetypes.png
 &#34; alt=&#34;Filetypes&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;media-keys&#34;&gt;Media Keys&lt;/h3&gt;
@@ -114,7 +114,7 @@ File Name Episode 1
 
 &lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
 
-&lt;p&gt;All of MPlayer keyboard shortcuts have been added, a list of keyboard shortcuts is in the help and can be viewed &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2011/12/09/mplayer-keybindings/&#34; title=&#34;Complete List of keyboard shortcuts&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All of MPlayer keyboard shortcuts have been added, a list of keyboard shortcuts is in the help and can be viewed &lt;a href=&#34;https://bilalh.github.io/2011/12/09/mplayer-keybindings/&#34; title=&#34;Complete List of keyboard shortcuts&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;help&#34;&gt;Help&lt;/h3&gt;
 
@@ -136,34 +136,34 @@ File Name Episode 1
 
 &lt;h3 id=&#34;video-icons&#34;&gt;Video Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Video.png
 &#34; alt=&#34;Video Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;audio-icons&#34;&gt;Audio Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Audio.png
 &#34; alt=&#34;Audio Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;subtitles-icons&#34;&gt;Subtitles Icons&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Subtitles.png
 &#34; alt=&#34;Subtitles Icons&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;binary-icon&#34;&gt;Binary Icon&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/code/MPlayer-OSX-Extended/Binary.png
 &#34; alt=&#34;Binary Icon&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MPlayer keybindings</title>
-      <link>/bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
+      <link>https://bilalh.github.io/2011/12/09/mplayer-keybindings/</link>
       <pubDate>Fri, 09 Dec 2011 06:25:32 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
+      <guid>https://bilalh.github.io/2011/12/09/mplayer-keybindings/</guid>
       <description>&lt;p&gt;A list of MPlayer&amp;rsquo;s keybindings since it hard to find a complete list online.
-If using a Mac consider using &lt;a href=&#34;bilalh.github.io/mplayer-osx-extended/
+If using a Mac consider using &lt;a href=&#34;https://bilalh.github.io/mplayer-osx-extended/
 &#34; title=&#34;MPlayer OSX Extended&#34;&gt;MPlayer OSX Extended&lt;/a&gt; which is the best GUI for MPlayer on the mac.&lt;/p&gt;
 
 &lt;table  &gt;

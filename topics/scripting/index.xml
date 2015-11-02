@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripting on Bilal Syed Hussain</title>
-    <link>bilalh.github.io/topics/scripting/</link>
+    <link>https://bilalh.github.io/topics/scripting/</link>
     <description>Recent content in Scripting on Bilal Syed Hussain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -10,14 +10,14 @@
     <webMaster>bilalshussain@gmail.com (Bilal Syed Hussain)</webMaster>
     <copyright>(c) 2015 Bilal Syed Hussain.</copyright>
     <lastBuildDate>Sat, 31 Oct 2015 16:46:31 +0000</lastBuildDate>
-    <atom:link href="bilalh.github.io/topics/scripting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bilalh.github.io/topics/scripting/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Viewing .csv files on the command line</title>
-      <link>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</link>
+      <link>https://bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</link>
       <pubDate>Sat, 31 Oct 2015 16:46:31 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</guid>
+      <guid>https://bilalh.github.io/2015/10/31/viewing-.csv-files-on-the-command-line/</guid>
       <description>&lt;p&gt;It can be convenient to view a &lt;code&gt;.csv&lt;/code&gt; file from the command line, when using SSH connection for example.  A basic version with no dependencies is as follows:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;function see_csv(){
@@ -67,10 +67,10 @@
     
     <item>
       <title>Alfred Extensions</title>
-      <link>/bilalh.github.io/2013/03/29/alfred-extensions/</link>
+      <link>https://bilalh.github.io/2013/03/29/alfred-extensions/</link>
       <pubDate>Fri, 29 Mar 2013 00:15:21 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2013/03/29/alfred-extensions/</guid>
+      <guid>https://bilalh.github.io/2013/03/29/alfred-extensions/</guid>
       <description>
 
 &lt;p&gt;Workflows and Extensions for &lt;a href=&#34;www.alfredapp.com&#34;&gt;Alfred&lt;/a&gt; hosted on &lt;a href=&#34;https://github.com/Bilalh/AlfredExtensions&#34;&gt;https://github.com/Bilalh/AlfredExtensions&lt;/a&gt;&lt;/p&gt;
@@ -79,7 +79,7 @@
 
 &lt;p&gt;Allows you to set the rating of the currently playing song. Support halves stars and empty ratings&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;bilalh.github.io/media/posts/alfred_itunes.png
+&lt;p&gt;&lt;img src=&#34;https://bilalh.github.io/media/posts/alfred_itunes.png
 &#34; alt=&#34;Alfred iTunes&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;based off &lt;a href=&#34;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&#34;&gt;https://github.com/qlassiqa/qWorkflow/tree/master/example%20workflows&lt;/a&gt;&lt;/p&gt;
@@ -90,16 +90,16 @@
 
 &lt;h2 id=&#34;shellmarks&#34;&gt;Shellmarks&lt;/h2&gt;
 
-&lt;p&gt;Allow the use of &lt;a href=&#34;bilalh.github.io/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/&#34;&gt;Shellmarks&lt;/a&gt;,  a shell script that allows you to save and jump to commonly used directories from Alfred.&lt;/p&gt;
+&lt;p&gt;Allow the use of &lt;a href=&#34;https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/&#34;&gt;Shellmarks&lt;/a&gt;,  a shell script that allows you to save and jump to commonly used directories from Alfred.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Pipe output from command line tools to a text editor</title>
-      <link>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</link>
+      <link>https://bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</link>
       <pubDate>Sun, 22 Apr 2012 22:01:23 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</guid>
+      <guid>https://bilalh.github.io/2012/04/22/pipe-output-from-command-line-tools-to-a-text-editor/</guid>
       <description>&lt;p&gt;A useful feature is to pipe the result of a command such as &lt;code&gt;ls&lt;/code&gt; to a text editor. This can be done by using:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;	ls | open -f
@@ -114,13 +114,13 @@
     
     <item>
       <title>Shellmarks - terminal directory bookmarks</title>
-      <link>/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</link>
+      <link>https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</link>
       <pubDate>Sat, 14 Jan 2012 00:57:33 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</guid>
+      <guid>https://bilalh.github.io/2012/01/14/shellmarks---terminal-directory-bookmarks/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;bilalh.github.io/shellmarks
+&lt;p&gt;&lt;a href=&#34;https://bilalh.github.io/shellmarks
 &#34; title=&#34;shellmarks project page&#34;&gt;shellmarks&lt;/a&gt; is a shell script that allows you to save and jump to commonly used directories.&lt;/p&gt;
 
 &lt;h2 id=&#34;usage-example&#34;&gt;Usage Example&lt;/h2&gt;
@@ -196,17 +196,17 @@ o              # opens ~/home/projects/www/javascript in Finder
 
 &lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
 
-&lt;p&gt;See the &lt;a href=&#34;bilalh.github.io/shellmarks
+&lt;p&gt;See the &lt;a href=&#34;https://bilalh.github.io/shellmarks
 &#34; title=&#34;shellmarks project page&#34;&gt;project page&lt;/a&gt;  for information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Useful sed commands</title>
-      <link>/bilalh.github.io/2011/10/09/useful-sed-commands/</link>
+      <link>https://bilalh.github.io/2011/10/09/useful-sed-commands/</link>
       <pubDate>Sun, 09 Oct 2011 17:20:59 +0000</pubDate>
       <author>bilalshussain@gmail.com (Bilal Syed Hussain)</author>
-      <guid>/bilalh.github.io/2011/10/09/useful-sed-commands/</guid>
+      <guid>https://bilalh.github.io/2011/10/09/useful-sed-commands/</guid>
       <description>
 
 &lt;h3 id=&#34;delete-nth-line-inplace&#34;&gt;Delete nth line inplace&lt;/h3&gt;
