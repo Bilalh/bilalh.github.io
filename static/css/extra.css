@@ -1,3 +1,7 @@
+div#home-info{
+    margin-bottom: 15pt;
+}
+
 code.hljs{
     tab-size: 4;
     font-size: 1rem;

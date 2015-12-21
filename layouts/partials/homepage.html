@@ -4,6 +4,11 @@
     {{ partial "bloc/content/lastupdate" . }}
   </header>
 
+  <div id='home-info'>
+    This site contains my blog and various bits of code that I have written in my free time. I also have a page about my <a href="https://bh246.host.cs.st-andrews.ac.uk/"> research</a>.
+  </div>
+
+
   <h2> Latest <a href="{{ "/posts" | absURL }}"> posts </a></h2>
 
   {{ $pagesIn := ( first 5 (where .Data.Pages "Type" "post")) }}
@@ -14,7 +19,7 @@
     {{ end }}
   </ul>
 
-  <h2> Latest <a href="{{ "/posts" | absURL }}"> code </a></h2>
+  <h2> Latest <a href="{{ "/code" | absURL }}"> code </a></h2>
 
   <ul id="all-posts">
     {{ $pagesIn := ( first 4 (  sort (where .Data.Pages "Type" "code") "Params.num" )) }}
