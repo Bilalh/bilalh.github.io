@@ -1,3 +1,7 @@
+div#home-info{
+    margin-bottom: 15pt;
+}
+
 code.hljs{
     tab-size: 4;
     font-size: 1rem;
@@ -164,4 +168,20 @@ a.button {
   background: url(/media/code/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
+}
+
+.my-af-ll-square:before {
+    content: "\f08c";
+}
+
+.my-af-tt-square:before {
+  content: "\f081";
+}
+
+.my-af-ff-square:before {
+  content: "\f082";
+}
+
+.my-af-gg-square:before {
+  content: "\f0d4";
 }
