@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bilalh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bilalh.github.io
+  * I am bilalh (https://keybase.io/bilalh) on keybase.
+  * I have a public key ASD2XRwVagvXTq6jzAEhnGqFJkRNVU0RKNXAPThib2PRnQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016a427e35d179d2fad12ee6692f7f48d7e5702dd35e260b9dbaae284cd31146510a",
+            "host": "keybase.io",
+            "kid": "0120f65d1c156a0bd74eaea3cc01219c6a8526444d554d1128d5c03d38626f63d19d0a",
+            "uid": "bbdfaa3ffbd6021a86f4b85a28198d00",
+            "username": "bilalh"
+        },
+        "service": {
+            "hostname": "bilalh.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1481040171,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1481040132,
+        "hash": "0f0a8bde98888f9d27d720b1080d8664b888b1b5b530e334c857b0a390b8b2e947a423f4007a3270265cd08bc1d5dab3c4be69eb7996df4c858be0455dae6230",
+        "seqno": 749709
+    },
+    "prev": "34449e789ab844e76c5873599847e51d8784eb9d364241ac6184459ce29e5198",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9l0cFWoL106uo8wBIZxqhSZETVVNESjVwD04Ym9j0Z0Kp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNmE0MjdlMzVkMTc5ZDJmYWQxMmVlNjY5MmY3ZjQ4ZDdlNTcwMmRkMzVlMjYwYjlkYmFhZTI4NGNkMzExNDY1MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjY1ZDFjMTU2YTBiZDc0ZWFlYTNjYzAxMjE5YzZhODUyNjQ0NGQ1NTRkMTEyOGQ1YzAzZDM4NjI2ZjYzZDE5ZDBhIiwidWlkIjoiYmJkZmFhM2ZmYmQ2MDIxYTg2ZjRiODVhMjgxOThkMDAiLCJ1c2VybmFtZSI6ImJpbGFsaCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYmlsYWxoLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDgxMDQwMTcxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODEwNDAxMzIsImhhc2giOiIwZjBhOGJkZTk4ODg4ZjlkMjdkNzIwYjEwODBkODY2NGI4ODhiMWI1YjUzMGUzMzRjODU3YjBhMzkwYjhiMmU5NDdhNDIzZjQwMDdhMzI3MDI2NWNkMDhiYzFkNWRhYjNjNGJlNjllYjc5OTZkZjRjODU4YmUwNDU1ZGFlNjIzMCIsInNlcW5vIjo3NDk3MDl9LCJwcmV2IjoiMzQ0NDllNzg5YWI4NDRlNzZjNTg3MzU5OTg0N2U1MWQ4Nzg0ZWI5ZDM2NDI0MWFjNjE4NDQ1OWNlMjllNTE5OCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJM90n+5LFgrzMewCosHMKoMJpTrsfzMuMfLGf93XI+iq60M9gHzNC490D74WmEvB8b+bwnUxItxZgxlme4nUgaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDDcX+iMCv6PbnN+ZtkHnq3Qt/32KgJPxJKfGDwOUnTaaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bilalh
+
+==================================================================
