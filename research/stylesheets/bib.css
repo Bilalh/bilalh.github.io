@@ -1,0 +1,23 @@
+.rheader {  font-size: large }
+.bibref {  padding:3px; padding-left:15px;  vertical-align:top;}
+.bibtitle { font-weight:bold; }
+
+.abstract{
+    display:none;
+}
+
+.bib-title{
+    font-weight: bold;
+}
+
+#recent-publication{
+    margin-bottom: -5px;
+}
+
+div#bib{
+    margin-top: 10px;
+}
+
+h2#recent-publication {
+padding-bottom: 7px;
+}
