@@ -16,7 +16,7 @@ metaDataFormat = "yaml"
 # theme to use (located in /themes/THEMENAME/)
 theme = "hyde-b"
 
-publishdir="_deploy"
+publishdir="../Website-ghpages"
 
 # pagination
 # paginate = 3
