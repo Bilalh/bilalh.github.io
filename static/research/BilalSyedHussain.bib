@@ -1,0 +1,94 @@
+
+@inproceedings{instances2014,
+    author    = {Ian P. Gent and Bilal Syed Hussain and Christopher A. Jefferson and Lars Kotthoff and Ian Miguel and Glenna F Nightingale and Peter Nightingale},
+    editor    = {Barry O’Sullivan},
+    title     = {Discriminating Instance Generation for Automated Constraint Model Selection},
+    booktitle = {20th International Conference on Principles and Practice of Constraint Programming},
+    pages     = {356-365},
+    year      = {2014},
+    ee        = {http://dx.doi.org/10.1007/978-3-319-10428-7_27},
+    month     = {September},
+    publisher = {Springer},
+    
+    abstract = { 
+    One approach to automated constraint modelling is to generate, and then select from,
+    a set of candidate models. This method is used by the automated modelling system
+    Conjure. To select a preferred model or set of models for a problem class from the
+    candidates Conjure produces, we use a set of training instances drawn from the target
+    class. It is important that the training instances are discriminating. If all models
+    solve a given instance in a trivial amount of time, or if no models solve it in the
+    time available, then the instance is not useful for model selection. This paper
+    addresses the task of generating small sets of discriminating training instances
+    automatically. The instance space is determined by the parameters of the associated
+    problem class. We develop a number of methods of finding parameter configurations
+    that give discriminating training instances, some of them leveraging existing
+    parameter-tuning techniques. Our experimental results confirm the success of our
+    approach in reducing a large set of input models to a small set that we can expect to
+    perform well for the given problem class.
+    },
+    
+    pdf       = {http://bh246.host.cs.st-andrews.ac.uk/publications/Instances2014.pdf},
+}
+
+@inproceedings{conjurecp2013,
+    author    = {Ozgur Akgun and Alan M. Frisch and Ian P. Gent and Bilal Syed Hussain and Christopher A. Jefferson and Lars Kotthoff and Ian Miguel and Peter Nightingale},
+    editor    = {Christian Schulte},
+    title     = {Automated Symmetry Breaking and Model Selection in Conjure},
+    booktitle = {19th International Conference on Principles and Practice of Constraint Programming},
+    pages     = {107-116},
+    month     = {September},
+    year      = {2013},
+    ee        = {http://dx.doi.org/10.1007/978-3-642-40627-0_11},
+    isbn      = {978-3-642-40626-3},
+    publisher = {Springer},
+    
+    abstract  = {
+     Constraint modelling is widely recognised as a key bottleneck in applying constraint
+     solving to a problem of interest. The Conjure automated constraint modelling system
+     addresses this problem by automatically refining constraint models from problem
+     specifications written in the Essence language. Essence provides familiar
+     mathematical concepts like sets, functions and relations nested to any depth. To
+     date, Conjure has been able to produce a set of alternative model kernels (i.e.
+     without advanced features such as symmetry breaking or implied constraints) for a
+     given specification. The first contribution of this paper is a method by which
+     Conjure can break symmetry in a model as it is introduced by the modelling process.
+     This works at the problem class level, rather than just individual instances, and
+     does not require an expensive detection step after the model has been formulated.
+     This allows Conjure to produce a higher quality set of models. A further limitation
+     of Conjure has been the lack of a mechanism to select among the models it produces.
+     The second contribution of this paper is to present two such mechanisms, allowing
+     effective models to be chosen automatically.
+
+    },
+    pdf       = {http://bh246.host.cs.st-andrews.ac.uk/publications/ConjureCP13.pdf},
+
+}
+
+@inproceedings{bilal2013cpdp,
+    title={Instance Generation for Constraint Model Selection},
+    author={Bilal Syed Hussain and Ian Miguel and Ian P. Gent},
+    Booktitle = {19th International Conference on Principles and Practice of Constraint Programming - Doctoral Program},
+    year={2013},
+    month = {September},
+    abstract= {
+    Constraint modelling is widely considered the bottleneck to the adoption of constraint
+    programming. The Conjure automated modelling system addresses this by allowing the user
+    to write in the high level specification language Essence. This allows the user to use
+    familiar mathematical notion such as sets & relations which can be arbitrarily nested.
+    Currently Conjure can produce many alternative models, but to select between the
+    models, instance data that can discriminate between the models has to be provided. The
+    main contribution of this paper, is the automatic generation of instance data from an
+    Essence specification.
+    },
+    pdf  = {http://bh246.host.cs.st-andrews.ac.uk/publications/Bilal-CP_dp-13.pdf},
+}
+
+@inproceedings{toolchainarw2013,
+    author = {Ozgur Akgun and Alan M. Frisch and Bilal Syed Hussain and Christopher A. Jefferson and Lars Kotthoff and Ian Miguel and Peter Nightingale},
+    title = {An Automated Constraint Modelling and Solving Toolchain},
+    booktitle = {20th Automated Reasoning Workshop},
+    month = {April},
+    year = {2013},
+    pdf  = {http://bh246.host.cs.st-andrews.ac.uk/publications/arw-toolchain.pdf},
+}
+
